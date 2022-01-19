@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "009"
+    },
+    "images": {
+        "image_file_id": "CR009_05_52415",
+        "image_file_nm": "CR009_05_52415.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\05\\009\\CR009_05_52415.jpg",
+        "rsoltn": "1220, 1220",
+        "region_nm": "성산",
+        "region_type": "평지",
+        "plant_part": "잎-뒷면",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-10-29 15:15:33"
+    },
+    "annotations": {
+        "antn_id": 3579870,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "02",
+        "object_class_mlsft_code": "009",
+        "object_class_sclas_code": "05",
+        "object_class_lclas_nm": "초본",
+        "object_class_mlsft_nm": "메밀",
+        "object_class_sclas_nm": "잎-뒷면",
+        "pyn_xcrdnt": "199,250,443,464,470,427,371,353,352,300,303,329,348,391,461,510,580,597,637,646,672,743,779,813,898,993,1054,1063,1055,1055,1035,998,985,959,956,938,938,971,993,947,893,869,857,863,859,830,828,817,774,744,636,564,513,494,383,255,215,195,193",
+        "pyn_ycrdnt": "947,914,753,735,715,674,591,552,540,466,443,420,383,328,265,248,250,244,256,267,272,320,327,347,318,294,248,251,267,300,334,350,359,368,382,392,485,525,627,715,783,791,797,815,825,825,808,796,789,793,782,768,754,762,862,966,988,976,957"
+    },
+    "plants": {
+        "wd_plnt_nm": "메밀",
+        "scientific_nm": "Fagopyrum esculentum Moench, 1794.",
+        "woody_herbal": "2",
+        "edible_yn": "Y",
+        "edible_part": "잎, 줄기, 꽃, 씨앗",
+        "acquisition_term": "10월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "8.9|9.0|0.0",
+        "nutrient": "15.1|15.8|15.2"
+    },
+    "ingredient": {
+        "irdnt_nm": "6-Hydroxykaempferol-3-O-glucoside|Kaempferol 3-O-β-D-glucopyranoside|1-O-Caffeoyquinic acid|Cnidimol F|Procyanidin B8|Rhamnetin|1-Galloyl-glucose|QuinquenosideⅠ|5,7,8,3-Tetrahydroxy-3,4-dimethoxy flavone|3,5-Dihydroxybenzoic acid",
+        "irdnt_ncl": "0.6|0.4|-0.3|0.5|-0.4|0.0|0.0|-0.2|0.4|0.5",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

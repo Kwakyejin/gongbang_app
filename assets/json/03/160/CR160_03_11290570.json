@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": 160
+    },
+    "images": {
+        "image_file_id": "CR160_03_11290570",
+        "image_file_nm": "CR160_03_11290570.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\160\\CR160_03_11290570.jpg",
+        "rsoltn": "1817, 1817",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-25 11:33:22"
+    },
+    "annotations": {
+        "antn_id": 3700252,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": 160,
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "꽝꽝나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "596,652,723,800,865,950,1029,1109,1177,1241,1258,1297,1321,1337,1332,1364,1385,1396,1391,1373,1339,1289,1212,1119,1037,967,874,818,782,766,743,685,672,579,576,591,552,531,528,541,558",
+        "pyn_ycrdnt": "527,453,397,358,342,336,345,369,398,427,421,443,474,505,530,610,690,783,867,940,1008,1080,1148,1194,1212,1217,1204,1184,1159,1137,1146,1140,1132,1027,978,941,887,816,726,658,596"
+    },
+    "plants": {
+        "wd_plnt_nm": "꽝꽝나무",
+        "scientific_nm": "Ilex crenata",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "뿌리, 줄기(제한 사용)",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "분석 진행중",
+        "nutrient": "분석 진행중"
+    },
+    "ingredient": {
+        "irdnt_nm": "분석 진행중",
+        "irdnt_ncl": "분석 진행중",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

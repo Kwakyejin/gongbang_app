@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "002"
+    },
+    "images": {
+        "image_file_id": "CR002_03_50605a",
+        "image_file_nm": "CR002_03_50605a.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\002\\CR002_03_50605a.jpg",
+        "rsoltn": "548, 548",
+        "region_nm": "제주특별자치도 제주시 오등동",
+        "region_type": "경사지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-08-05 13:43:43"
+    },
+    "annotations": {
+        "antn_id": 3448187,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "002",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "좁은잎천선과",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "66,67,68,69,68,70,71,77,81,83,91,105,118,131,140,149,163,167,174,189,203,224,235,257,273,296,312,329,357,380,405,424,433,443,453,459,465,470,474,477,474,470,465,458,453,442,430,414,397,376,356,329,313,291,268,244,219,203,189,173,153,137,122,112,103,97,88,81,76,73,69",
+        "pyn_ycrdnt": "275,292,311,328,343,357,363,366,377,393,402,415,427,436,444,451,453,455,460,467,472,477,482,484,488,487,489,485,477,467,451,433,424,411,399,385,371,354,334,308,279,248,226,206,192,175,159,136,120,104,91,78,73,68,67,67,73,79,85,93,107,120,132,143,159,174,191,207,220,237,255"
+    },
+    "plants": {
+        "wd_plnt_nm": "좁은잎천선과",
+        "scientific_nm": "Ficus erecta var. sieboldii (Miq.) King, 1888.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "잎, 열매",
+        "acquisition_term": "08월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "13.4|13.8|51.6",
+        "nutrient": "16.1|15.5|16.2"
+    },
+    "ingredient": {
+        "irdnt_nm": "Cnidimol F|6-Hydroxykaempferol 3-glucoside|(E,E)-9-Oxooctadeca-10,12-dienoic acid|Sanleng acid|1-O-Caffeoyl-β-D-glucopyranose|morroniside|3-O-trans-p-Coumaroyl alphitolic acid|Curculigoside B|Kaempferol 3,7-diglucoside|Procyanidin B8",
+        "irdnt_ncl": "0.4|0.9|0.3|0.2|0.9|0.1|0.6|0.0|-0.6|0.4",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

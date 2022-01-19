@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "011"
+    },
+    "images": {
+        "image_file_id": "CR011_03_11170370",
+        "image_file_nm": "CR011_03_11170370.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\011\\CR011_03_11170370.jpg",
+        "rsoltn": "2052, 2052",
+        "region_nm": "만장굴",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-12 13:36:04"
+    },
+    "annotations": {
+        "antn_id": 3641125,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "011",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "구실잣밤나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "882,918,950,968,987,1000,1012,1022,1033,1040,1049,1058,1067,1073,1080,1088,1096,1104,1114,1122,1132,1143,1151,1164,1178,1186,1197,1211,1219,1233,1246,1279,1287,1297,1301,1306,1309,1312,1315,1318,1322,1325,1321,1313,1294,1281,1260,1248,1236,1211,1188,1156,1136,1099,1072,1033,996,945,906,864,833,781,748,735,729,722,715,712,707,703,698,695,691,688,684,681,678,675,672,662,654,650,652,655,657,665,676,685,699,725,739,752,786,833",
+        "pyn_ycrdnt": "776,778,782,785,788,791,794,798,801,805,808,812,816,819,822,826,829,835,841,848,853,860,866,875,885,895,905,918,926,941,957,997,1007,1021,1028,1035,1041,1049,1060,1070,1080,1090,1133,1169,1202,1229,1253,1269,1284,1308,1328,1343,1353,1358,1357,1354,1348,1330,1313,1292,1272,1233,1197,1184,1176,1165,1155,1149,1140,1132,1126,1119,1112,1104,1097,1089,1081,1072,1063,1024,996,960,925,892,874,848,827,811,799,789,785,780,775,775"
+    },
+    "plants": {
+        "wd_plnt_nm": "구실잣밤나무",
+        "scientific_nm": "Castanopsis sieboldii (Makino) Hatus. ex T. Yamaz. & Mashiba, 1971.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "열매",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "57.8|18.2|82.4",
+        "nutrient": "15.3|15.2|16.7"
+    },
+    "ingredient": {
+        "irdnt_nm": "1,2,3,6-Tetra-O-galloyl-D-glucose|quercetin-3-O-glucoside|1,2,6-tris-O-galloyl-β-D-glucose|Quercetin-3-O-α-D-glucuronide|Mudanpioside E|3,6-Di-O-Galloyl-β-D-glucose|1-Galloylglucose|Sesamoside|Secologanoside|Methyl 11α-hydroxytormentate",
+        "irdnt_ncl": "-0.6|-0.5|-0.6|-0.7|-0.7|-0.9|-0.7|-0.5|-0.5|0.6",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

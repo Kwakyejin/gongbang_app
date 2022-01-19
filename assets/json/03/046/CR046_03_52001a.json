@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "046"
+    },
+    "images": {
+        "image_file_id": "CR046_03_52001a",
+        "image_file_nm": "CR046_03_52001a.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\046\\CR046_03_52001a.jpg",
+        "rsoltn": "785, 785",
+        "region_nm": "농산물원종장",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-10-01 14:46:20"
+    },
+    "annotations": {
+        "antn_id": 3512535,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "046",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "황근",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "592,596,597,589,573,569,565,554,514,511,504,487,477,467,453,442,435,412,389,370,335,318,267,250,220,196,191,197,219,207,202,188,169,158,148,141,128,119,118,108,100,110,128,152,172,180,191,197,203,220,246,278,310,342,380,421,464,491,532,548,566",
+        "pyn_ycrdnt": "260,282,303,370,424,432,456,496,544,556,560,576,592,611,598,582,588,613,630,640,651,670,688,701,715,703,690,650,624,597,569,487,506,528,553,566,570,560,522,497,454,410,372,340,316,307,296,279,268,244,206,177,153,136,128,126,128,138,160,181,221"
+    },
+    "plants": {
+        "wd_plnt_nm": "황근",
+        "scientific_nm": "Hibiscus hamabo Siebold & Zucc., 1841.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "10월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "41.1|13.3|0.0",
+        "nutrient": "15.0|15.4|15.6"
+    },
+    "ingredient": {
+        "irdnt_nm": "Procyanidin B1|(E,E)-9-oxooctadeca-10,12-dienoic acid|Quinquenoside I|Tianshic acid|Kaempferol-3-Glucoside-2-p-coumaroyl|6-Hydroxykaempferol-3-O-glucoside|Vernolic acid|Acrinidioionoside|Decaffeoylverbascoside|Glucosyringic acid",
+        "irdnt_ncl": "-0.1|-0.1|0.7|0.9|-0.4|-0.4|0.6|-0.5|0.3|-0.5",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

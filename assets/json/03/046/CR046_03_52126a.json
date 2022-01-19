@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "046"
+    },
+    "images": {
+        "image_file_id": "CR046_03_52126a",
+        "image_file_nm": "CR046_03_52126a.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\046\\CR046_03_52126a.jpg",
+        "rsoltn": "598, 598",
+        "region_nm": "농산물원종장",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-10-01 14:48:31"
+    },
+    "annotations": {
+        "antn_id": 3516824,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "046",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "황근",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "365,339,331,301,250,231,213,207,189,162,133,114,114,127,139,119,111,124,161,137,107,79,63,53,53,79,102,125,155,170,172,152,143,152,170,187,237,297,356,400,433,466,487,503,503,499,475,439,403",
+        "pyn_ycrdnt": "173,164,165,156,167,165,163,169,175,159,144,141,157,175,181,185,189,206,225,242,275,274,275,295,317,332,359,384,399,408,424,436,461,473,472,455,479,491,489,475,452,421,391,345,317,285,249,209,187"
+    },
+    "plants": {
+        "wd_plnt_nm": "황근",
+        "scientific_nm": "Hibiscus hamabo Siebold & Zucc., 1841.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "10월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "41.1|13.3|0.0",
+        "nutrient": "15.0|15.4|15.6"
+    },
+    "ingredient": {
+        "irdnt_nm": "Procyanidin B1|(E,E)-9-oxooctadeca-10,12-dienoic acid|Quinquenoside I|Tianshic acid|Kaempferol-3-Glucoside-2-p-coumaroyl|6-Hydroxykaempferol-3-O-glucoside|Vernolic acid|Acrinidioionoside|Decaffeoylverbascoside|Glucosyringic acid",
+        "irdnt_ncl": "-0.1|-0.1|0.7|0.9|-0.4|-0.4|0.6|-0.5|0.3|-0.5",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

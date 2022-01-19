@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "009"
+    },
+    "images": {
+        "image_file_id": "CR009_05_52056",
+        "image_file_nm": "CR009_05_52056.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\05\\009\\CR009_05_52056.jpg",
+        "rsoltn": "1461, 1461",
+        "region_nm": "성산",
+        "region_type": "평지",
+        "plant_part": "잎-뒷면",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-10-29 15:03:48"
+    },
+    "annotations": {
+        "antn_id": 3579942,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "02",
+        "object_class_mlsft_code": "009",
+        "object_class_sclas_code": "05",
+        "object_class_lclas_nm": "초본",
+        "object_class_mlsft_nm": "메밀",
+        "object_class_sclas_nm": "잎-뒷면",
+        "pyn_xcrdnt": "180,226,275,448,495,517,579,685,730,757,863,928,1012,1052,1072,1058,1048,1038,993,975,993,1062,1160,1239,1307,1314,1292,1247,1188,1110,1037,935,879,796,560,357,323,303,205",
+        "pyn_ycrdnt": "409,472,501,664,686,709,762,860,984,1023,1088,1152,1166,1154,1129,1098,971,934,868,810,795,795,788,742,677,643,613,596,567,524,516,541,554,541,483,429,418,418,395"
+    },
+    "plants": {
+        "wd_plnt_nm": "메밀",
+        "scientific_nm": "Fagopyrum esculentum Moench, 1794.",
+        "woody_herbal": "2",
+        "edible_yn": "Y",
+        "edible_part": "잎, 줄기, 꽃, 씨앗",
+        "acquisition_term": "10월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "8.9|9.0|0.0",
+        "nutrient": "15.1|15.8|15.2"
+    },
+    "ingredient": {
+        "irdnt_nm": "6-Hydroxykaempferol-3-O-glucoside|Kaempferol 3-O-β-D-glucopyranoside|1-O-Caffeoyquinic acid|Cnidimol F|Procyanidin B8|Rhamnetin|1-Galloyl-glucose|QuinquenosideⅠ|5,7,8,3-Tetrahydroxy-3,4-dimethoxy flavone|3,5-Dihydroxybenzoic acid",
+        "irdnt_ncl": "0.6|0.4|-0.3|0.5|-0.4|0.0|0.0|-0.2|0.4|0.5",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

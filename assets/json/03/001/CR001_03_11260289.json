@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "001"
+    },
+    "images": {
+        "image_file_id": "CR001_03_11260289",
+        "image_file_nm": "CR001_03_11260289.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\001\\CR001_03_11260289.jpg",
+        "rsoltn": "3024, 3024",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-24 16:01:46"
+    },
+    "annotations": {
+        "antn_id": 3692672,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "001",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "까마귀쪽나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "1071,1058,1040,1051,1098,1157,1204,1273,1367,1368,1406,1500,1562,1655,1790,1832,1865,1860,1891,1928,1936,1931,1906,1880,1883,1857,1846,1827,1807,1739,1682,1630,1543,1504,1468,1426,1410,1390,1374,1375,1357,1339,1327,1316,1316,1341,1315,1274,1232,1150,1107,1078",
+        "pyn_ycrdnt": "2052,2067,2110,2173,2242,2277,2276,2246,2163,2131,2104,1997,1893,1797,1651,1576,1479,1438,1352,1229,1107,1043,957,916,893,867,867,879,877,879,894,919,989,1038,1089,1159,1196,1208,1230,1296,1312,1334,1348,1497,1538,1693,1821,1892,1943,2021,2028,2044"
+    },
+    "plants": {
+        "wd_plnt_nm": "까마귀쪽나무",
+        "scientific_nm": "Litsea japonica (Thunb.) Juss., 1801.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "열매",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "72.0|28.7|71.4",
+        "nutrient": "16.2|15.9|16.0"
+    },
+    "ingredient": {
+        "irdnt_nm": "Kaempferol-7-rhamnoside|chlorogenic acid|Questin|Chrysosplenetin B|Myricetin 3-O-glucoside|(E,E)-9-Oxooctadeca-10,12-dienoic acid|6-Hydroxykaempferol 3-glucoside|Luteolin-7-beta-neohesperidoside|lithospermic acid B|Trifolin",
+        "irdnt_ncl": "-0.1|-1.9|-0.5|-0.3|-0.1|0.5|0.2|0.8|0.3|1.0",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

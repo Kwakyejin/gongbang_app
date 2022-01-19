@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "004"
+    },
+    "images": {
+        "image_file_id": "CR004_04_53576",
+        "image_file_nm": "CR004_04_53576.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\04\\004\\CR004_04_53576.jpg",
+        "rsoltn": "1913, 1913",
+        "region_nm": "연동",
+        "region_type": "평지",
+        "plant_part": "잎-앞면",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-10-22 15:12:23"
+    },
+    "annotations": {
+        "antn_id": 3577859,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "004",
+        "object_class_sclas_code": "04",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "참식나무",
+        "object_class_sclas_nm": "잎-앞면",
+        "pyn_xcrdnt": "311,252,211,229,317,361,511,586,636,761,924,1137,1160,1285,1366,1575,1619,1654,1704,1757,1796,1779,1763,1681,1613,1550,1502,1462,1341,1283,1149,1045,743,691,659,578,534,513,471,440,423,390,355",
+        "pyn_ycrdnt": "1521,1571,1650,1696,1606,1544,1508,1477,1439,1408,1287,1168,1129,922,713,480,467,471,490,522,497,461,459,426,413,430,478,536,578,595,590,620,766,820,899,972,1066,1095,1147,1222,1270,1346,1433"
+    },
+    "plants": {
+        "wd_plnt_nm": "참식나무",
+        "scientific_nm": "Neolitsea sericea (Blume) Koidz., 1926.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "10월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "41.8|11.3|74.3",
+        "nutrient": "15.6|16.2|15.5"
+    },
+    "ingredient": {
+        "irdnt_nm": "Dihydrokaempferol-5-O-β-D-glucopyranoside|Trifolin|6-Hydroxykaempferol 3-glucoside|Procyanidin B1|Kaempferol 3-O-(6\"-O-p-coumaroyl)glucoside|1,6,7-Trihydroxy-2,3-dimethoxyxanthone|Gaillardin|Darendoside A|Cimidahurinine|Vernolic acid",
+        "irdnt_ncl": "0.5|0.7|0.0|-0.6|-0.1|0.3|0.8|0.4|0.3|0.0",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

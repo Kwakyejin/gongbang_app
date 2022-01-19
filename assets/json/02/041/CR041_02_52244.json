@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "041"
+    },
+    "images": {
+        "image_file_id": "CR041_02_52244",
+        "image_file_nm": "CR041_02_52244.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\02\\041\\CR041_02_52244.jpg",
+        "rsoltn": "1078, 1078",
+        "region_nm": "한라수목원",
+        "region_type": "경사지",
+        "plant_part": "꽃",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-10-20 15:53:32"
+    },
+    "annotations": {
+        "antn_id": 3567388,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "041",
+        "object_class_sclas_code": "02",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "참꽃나무",
+        "object_class_sclas_nm": "꽃",
+        "pyn_xcrdnt": "358,326,307,289,246,233,232,255,258,270,288,289,290,297,310,321,325,348,336,333,333,347,363,395,437,473,506,553,572,611,637,657,669,676,685,715,741,763,771,771,768,755,749,727,777,810,848,894,911,927,963,957,948,940,923,906,889,856,835,811,803,822,837,845,849,857,856,858,851,838,819,802,777,749,722,712,684,662,643,614,596,583,570,546,517,494,482,460,445,419,392,375,359,353,355,362,360,357",
+        "pyn_ycrdnt": "336,347,346,387,404,418,434,459,486,535,590,619,652,666,679,701,718,732,748,759,774,786,799,814,829,838,839,846,845,841,839,845,844,839,824,810,798,790,778,768,756,749,751,743,736,729,716,690,683,668,652,627,623,613,616,589,574,555,545,537,534,514,494,464,412,389,358,328,303,285,267,245,217,194,179,171,165,174,174,181,181,187,204,231,254,238,236,238,228,220,206,197,195,202,212,238,273,311"
+    },
+    "plants": {
+        "wd_plnt_nm": "참꽃나무",
+        "scientific_nm": "Rhododendron weyrichii Maxim., 1871.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "10월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "0.0|0.0|0.0",
+        "nutrient": "15.2|15.2|15.4"
+    },
+    "ingredient": {
+        "irdnt_nm": "6-Hydroxykaempferol-3-O-glucoside|21-O-Methyl toosendanopentaol|20(S)-Ginsenoside Rh2 (Ginsenoside Rh2)|3β-O-trans-p-Coumaroyl alphitolic acid|Chlorogenic acid|1-O-Caffeoyquinic acid|Kaempferol-3-Glucoside-2'-p-coumaroyl|Procyanidin B8|Quercetin-3-O-xyloside|Neocomplanoside",
+        "irdnt_ncl": "0.2|1.0|0.2|-0.5|-0.3|0.1|0.9|0.2|0.0|0.2",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

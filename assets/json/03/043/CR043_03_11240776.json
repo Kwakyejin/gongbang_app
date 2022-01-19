@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "043"
+    },
+    "images": {
+        "image_file_id": "CR043_03_11240776",
+        "image_file_nm": "CR043_03_11240776.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\043\\CR043_03_11240776.jpg",
+        "rsoltn": "3024, 3024",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-22 17:08:42"
+    },
+    "annotations": {
+        "antn_id": 3631834,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "043",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "참가시나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "1555,1618,1650,1726,1775,1849,1889,1927,1990,2030,2071,2079,2091,2088,2071,2055,2024,2000,1950,1879,1705,1534,1396,1299,1241,1204,1192,1171,1161,1161,1171,1175,1191,1215,1234,1275,1349,1416,1446,1493,1538",
+        "pyn_ycrdnt": "902,899,904,920,936,963,987,1018,1090,1155,1245,1285,1335,1436,1510,1562,1631,1664,1724,1785,1862,1855,1798,1731,1654,1583,1546,1476,1409,1338,1289,1239,1192,1137,1112,1057,987,950,934,913,902"
+    },
+    "plants": {
+        "wd_plnt_nm": "참가시나무",
+        "scientific_nm": "Quercus salicina Blume, 1850.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "열매",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "46.4|17.1|82.6",
+        "nutrient": "15.4|15.2|15.5"
+    },
+    "ingredient": {
+        "irdnt_nm": "Madecassoside|Ellagic acid|Quinic acid|2,3-(S)-hexahydroxydiphenoyl-D-glucose|3-O-Methylellagic acid|Ethyl caffeate|3,3-Di-O-methylellagic acid|Tianshic acid|2,3-(S)-hexahydroxydiphenoyl-D-glucose|Yamogenin acetate",
+        "irdnt_ncl": "-1.4|0.2|-0.1|-0.2|-0.7|0.7|0.5|0.3|-0.7|1.7",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "040"
+    },
+    "images": {
+        "image_file_id": "CR040_02_52039",
+        "image_file_nm": "CR040_02_52039.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\02\\040\\CR040_02_52039.jpg",
+        "rsoltn": "514, 514",
+        "region_nm": "용담해안도로",
+        "region_type": "평지",
+        "plant_part": "꽃",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-08-12 15:40:11"
+    },
+    "annotations": {
+        "antn_id": 3454151,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "040",
+        "object_class_sclas_code": "02",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "순비기나무",
+        "object_class_sclas_nm": "꽃",
+        "pyn_xcrdnt": "264,253,250,246,238,231,214,200,190,187,196,184,164,143,129,116,112,118,134,147,136,121,116,111,109,112,119,130,145,165,184,211,232,258,274,288,295,298,304,304,320,338,352,362,370,375,373,364,354,348,350,344,348,355,370,385,397,403,394,375,348,327,320,307,303,303,303,299,286,270",
+        "pyn_ycrdnt": "77,88,106,130,145,154,152,148,156,167,175,180,180,182,189,204,229,253,268,277,288,306,320,334,354,378,402,424,444,461,466,466,460,451,439,426,409,388,368,352,358,358,350,342,331,320,306,289,262,244,231,224,210,201,185,172,163,151,136,133,133,145,142,136,127,114,99,86,76,74"
+    },
+    "plants": {
+        "wd_plnt_nm": "순비기나무",
+        "scientific_nm": "Vitex rotundifolia L. f., 1781.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "08월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "67.0|3.6|72.4",
+        "nutrient": "15.3|15.2|15.0"
+    },
+    "ingredient": {
+        "irdnt_nm": "Agnuside|Oxypaeoniflorin|Trifolin|Kaempferol 3-O-β-D-glucuronide|Cimicifugic acid B|Apigenin-7-O-acetyl-β-D-glucoside|20(S)-Ginsenoside Rh2|5,6,4-Trihydroxy-7,8-dimethoxyflavone",
+        "irdnt_ncl": "-0.2|-0.1|-0.3|0.1|0.0|-0.4|-0.4|0.9",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

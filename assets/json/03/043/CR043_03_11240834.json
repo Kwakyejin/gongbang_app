@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "043"
+    },
+    "images": {
+        "image_file_id": "CR043_03_11240834",
+        "image_file_nm": "CR043_03_11240834.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\043\\CR043_03_11240834.jpg",
+        "rsoltn": "3024, 3024",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-22 17:09:04"
+    },
+    "annotations": {
+        "antn_id": 3631638,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "043",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "참가시나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "1581,1585,1642,1645,1676,1710,1716,1750,1770,1783,1797,1830,1854,1861,1870,1898,1928,1945,1968,1989,2002,2008,2023,2029,2039,2042,2050,2056,2063,2076,2083,2087,2093,2090,2090,2090,2087,2080,2076,2069,2066,2046,2036,2029,2023,2013,1999,1989,1935,1915,1891,1881,1857,1783,1695,1557,1467,1403,1369,1360,1342,1292,1244,1225,1204,1201,1167,1164,1154,1143,1137,1137,1133,1140,1143,1164,1177,1194,1198,1211,1265,1318,1342,1369,1382,1396,1406,1440,1493,1504,1524,1554",
+        "pyn_ycrdnt": "793,790,790,793,798,804,811,814,821,827,835,848,861,868,875,891,925,942,962,983,1003,1016,1033,1047,1060,1074,1084,1103,1117,1158,1171,1222,1255,1275,1299,1316,1356,1370,1393,1414,1427,1474,1488,1501,1511,1528,1545,1562,1618,1633,1652,1656,1669,1697,1720,1716,1693,1666,1646,1642,1629,1589,1541,1511,1488,1477,1421,1406,1376,1329,1302,1252,1238,1191,1161,1090,1063,1037,1023,1006,942,888,868,851,845,838,835,824,811,804,801,793"
+    },
+    "plants": {
+        "wd_plnt_nm": "참가시나무",
+        "scientific_nm": "Quercus salicina Blume, 1850.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "열매",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "46.4|17.1|82.6",
+        "nutrient": "15.4|15.2|15.5"
+    },
+    "ingredient": {
+        "irdnt_nm": "Madecassoside|Ellagic acid|Quinic acid|2,3-(S)-hexahydroxydiphenoyl-D-glucose|3-O-Methylellagic acid|Ethyl caffeate|3,3-Di-O-methylellagic acid|Tianshic acid|2,3-(S)-hexahydroxydiphenoyl-D-glucose|Yamogenin acetate",
+        "irdnt_ncl": "-1.4|0.2|-0.1|-0.2|-0.7|0.7|0.5|0.3|-0.7|1.7",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

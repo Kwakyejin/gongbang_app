@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "043"
+    },
+    "images": {
+        "image_file_id": "CR043_03_11240640",
+        "image_file_nm": "CR043_03_11240640.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\043\\CR043_03_11240640.jpg",
+        "rsoltn": "3024, 3024",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-22 17:03:36"
+    },
+    "annotations": {
+        "antn_id": 3631993,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "043",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "참가시나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "1432,1518,1568,1648,1685,1727,1784,1844,1901,1928,1950,1965,1995,2004,2009,2014,2028,2021,2014,1995,1968,1947,1924,1891,1827,1764,1685,1544,1406,1266,1155,1082,1011,978,961,937,910,897,891,891,900,904,920,936,951,972,985,1006,1044,1092,1158,1191,1229,1269,1310,1369,1410",
+        "pyn_ycrdnt": "704,707,714,734,748,768,805,859,918,960,997,1028,1097,1147,1170,1197,1271,1390,1428,1501,1568,1612,1649,1696,1760,1810,1857,1891,1881,1844,1777,1727,1657,1609,1579,1536,1459,1411,1363,1281,1211,1174,1107,1066,1036,1004,982,947,891,851,805,778,758,738,726,711,704"
+    },
+    "plants": {
+        "wd_plnt_nm": "참가시나무",
+        "scientific_nm": "Quercus salicina Blume, 1850.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "열매",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "46.4|17.1|82.6",
+        "nutrient": "15.4|15.2|15.5"
+    },
+    "ingredient": {
+        "irdnt_nm": "Madecassoside|Ellagic acid|Quinic acid|2,3-(S)-hexahydroxydiphenoyl-D-glucose|3-O-Methylellagic acid|Ethyl caffeate|3,3-Di-O-methylellagic acid|Tianshic acid|2,3-(S)-hexahydroxydiphenoyl-D-glucose|Yamogenin acetate",
+        "irdnt_ncl": "-1.4|0.2|-0.1|-0.2|-0.7|0.7|0.5|0.3|-0.7|1.7",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

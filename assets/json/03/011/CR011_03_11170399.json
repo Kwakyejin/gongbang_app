@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "011"
+    },
+    "images": {
+        "image_file_id": "CR011_03_11170399",
+        "image_file_nm": "CR011_03_11170399.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\011\\CR011_03_11170399.jpg",
+        "rsoltn": "3024, 3024",
+        "region_nm": "만장굴",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-12 13:41:22"
+    },
+    "annotations": {
+        "antn_id": 3619163,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "011",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "구실잣밤나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "1345,1312,1271,1240,1213,1199,1196,1189,1174,1169,1166,1159,1152,1147,1154,1162,1181,1201,1226,1251,1282,1343,1365,1382,1404,1445,1486,1523,1552,1599,1644,1705,1750,1787,1815,1865,1898,1937,1971,2000,2016,2037,2051,2060,2064,2056,2039,1990,1917,1801,1726,1644,1566,1484,1394",
+        "pyn_ycrdnt": "1215,1225,1242,1258,1289,1303,1323,1345,1377,1405,1432,1462,1481,1511,1544,1589,1618,1647,1678,1695,1712,1733,1744,1749,1756,1763,1763,1757,1754,1742,1727,1704,1674,1653,1634,1594,1558,1515,1466,1412,1374,1326,1284,1265,1251,1240,1233,1232,1224,1204,1195,1189,1189,1191,1203"
+    },
+    "plants": {
+        "wd_plnt_nm": "구실잣밤나무",
+        "scientific_nm": "Castanopsis sieboldii (Makino) Hatus. ex T. Yamaz. & Mashiba, 1971.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "열매",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "57.8|18.2|82.4",
+        "nutrient": "15.3|15.2|16.7"
+    },
+    "ingredient": {
+        "irdnt_nm": "1,2,3,6-Tetra-O-galloyl-D-glucose|quercetin-3-O-glucoside|1,2,6-tris-O-galloyl-β-D-glucose|Quercetin-3-O-α-D-glucuronide|Mudanpioside E|3,6-Di-O-Galloyl-β-D-glucose|1-Galloylglucose|Sesamoside|Secologanoside|Methyl 11α-hydroxytormentate",
+        "irdnt_ncl": "-0.6|-0.5|-0.6|-0.7|-0.7|-0.9|-0.7|-0.5|-0.5|0.6",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

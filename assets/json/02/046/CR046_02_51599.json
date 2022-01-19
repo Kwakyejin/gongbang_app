@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "046"
+    },
+    "images": {
+        "image_file_id": "CR046_02_51599",
+        "image_file_nm": "CR046_02_51599.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\02\\046\\CR046_02_51599.jpg",
+        "rsoltn": "1272, 1272",
+        "region_nm": "제주대학교",
+        "region_type": "평지",
+        "plant_part": "꽃",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-08-17 17:02:43"
+    },
+    "annotations": {
+        "antn_id": 3474604,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "046",
+        "object_class_sclas_code": "02",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "황근",
+        "object_class_sclas_nm": "꽃",
+        "pyn_xcrdnt": "493,441,420,401,377,334,307,264,248,235,218,204,197,200,213,329,440,552,648,668,686,706,731,741,757,793,841,885,892,899,915,945,973,989,1007,1025,1035,1045,1051,1059,1057,1052,1019,987,937,893,852,776,706,629,557,525",
+        "pyn_ycrdnt": "169,272,296,315,383,437,503,537,568,613,720,832,889,905,919,951,1035,1085,1125,1161,1171,1171,1162,1143,1111,1048,985,925,891,849,841,832,808,769,699,623,579,545,521,488,461,433,413,399,399,405,392,327,236,168,147,151"
+    },
+    "plants": {
+        "wd_plnt_nm": "황근",
+        "scientific_nm": "Hibiscus hamabo Siebold & Zucc., 1841.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "08월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "41.1|13.3|0.0",
+        "nutrient": "15.0|15.4|15.6"
+    },
+    "ingredient": {
+        "irdnt_nm": "Procyanidin B1|(E,E)-9-oxooctadeca-10,12-dienoic acid|Quinquenoside I|Tianshic acid|Kaempferol-3-Glucoside-2-p-coumaroyl|6-Hydroxykaempferol-3-O-glucoside|Vernolic acid|Acrinidioionoside|Decaffeoylverbascoside|Glucosyringic acid",
+        "irdnt_ncl": "-0.1|-0.1|0.7|0.9|-0.4|-0.4|0.6|-0.5|0.3|-0.5",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

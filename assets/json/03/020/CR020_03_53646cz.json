@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "020"
+    },
+    "images": {
+        "image_file_id": "CR020_03_53646cz",
+        "image_file_nm": "CR020_03_53646cz.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\020\\CR020_03_53646cz.jpg",
+        "rsoltn": "455, 455",
+        "region_nm": "제주대학교",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-08-17 17:11:46"
+    },
+    "annotations": {
+        "antn_id": 3704286,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "020",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "돈나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "196,178,162,139,119,101,88,73,60,52,40,37,37,38,43,47,54,60,70,82,106,135,158,177,197,215,247,275,294,318,339,359,369,381,394,404,410,408,406,404,399,395,391,387,379,371,359,340,324,303,285,264,238,215",
+        "pyn_ycrdnt": "38,43,50,61,77,94,116,138,156,171,194,216,233,254,272,289,308,324,338,355,373,386,392,405,413,418,420,417,410,398,383,368,353,337,318,295,262,231,211,194,173,151,132,121,105,95,80,65,57,48,43,38,36,37"
+    },
+    "plants": {
+        "wd_plnt_nm": "돈나무",
+        "scientific_nm": "Pittosporum tobira (Thunb.) W. T. Aiton, 1811.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "08월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "88.7|9.7|52.1",
+        "nutrient": "15.3|15.7|15.6"
+    },
+    "ingredient": {
+        "irdnt_nm": "Chlorogenic acid|Methyl chlorogenate|3-O-trans-Coumaroylquinic acid|1-O-Caffeoyl-β-D-glucopyranose|akebia saponin E|Lablaboside D|Vernolic acid|Methyl chlorogenate|(E,E)-9-Oxooctadeca-10,12-dienoic acid|Shikimic acid",
+        "irdnt_ncl": "0.5|0.3|0.8|1.3|0.6|0.4|1.6|0.7|1.7|3.5",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

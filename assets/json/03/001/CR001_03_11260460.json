@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "001"
+    },
+    "images": {
+        "image_file_id": "CR001_03_11260460",
+        "image_file_nm": "CR001_03_11260460.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\001\\CR001_03_11260460.jpg",
+        "rsoltn": "3024, 3024",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-24 16:44:46"
+    },
+    "annotations": {
+        "antn_id": 3692996,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "001",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "까마귀쪽나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "986,973,960,959,964,961,983,1002,1027,1087,1139,1220,1288,1378,1457,1496,1543,1543,1574,1580,1595,1602,1637,1673,1730,1758,1715,1649,1615,1558,1515,1444,1397,1372,1360,1349,1355,1309,1252,1197,1173,1134,1112,1118,1073,1008",
+        "pyn_ycrdnt": "1729,1773,1848,1900,1913,1931,1966,1969,1987,1998,1995,1967,1932,1856,1762,1688,1657,1634,1538,1467,1432,1380,1318,1275,1211,1162,1131,1089,1076,1092,1134,1191,1229,1236,1230,1234,1244,1261,1289,1326,1348,1402,1444,1472,1546,1666"
+    },
+    "plants": {
+        "wd_plnt_nm": "까마귀쪽나무",
+        "scientific_nm": "Litsea japonica (Thunb.) Juss., 1801.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "열매",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "72.0|28.7|71.4",
+        "nutrient": "16.2|15.9|16.0"
+    },
+    "ingredient": {
+        "irdnt_nm": "Kaempferol-7-rhamnoside|chlorogenic acid|Questin|Chrysosplenetin B|Myricetin 3-O-glucoside|(E,E)-9-Oxooctadeca-10,12-dienoic acid|6-Hydroxykaempferol 3-glucoside|Luteolin-7-beta-neohesperidoside|lithospermic acid B|Trifolin",
+        "irdnt_ncl": "-0.1|-1.9|-0.5|-0.3|-0.1|0.5|0.2|0.8|0.3|1.0",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "011"
+    },
+    "images": {
+        "image_file_id": "CR011_03_11170165",
+        "image_file_nm": "CR011_03_11170165.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\011\\CR011_03_11170165.jpg",
+        "rsoltn": "2043, 2043",
+        "region_nm": "만장굴",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-12 09:39:07"
+    },
+    "annotations": {
+        "antn_id": 3619870,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "011",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "구실잣밤나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "863,839,811,795,778,764,754,744,740,746,758,779,819,854,903,962,994,1028,1057,1095,1147,1174,1194,1230,1252,1263,1274,1283,1294,1313,1310,1284,1226,1201,1156,1113,1072,1018,967,909,888",
+        "pyn_ycrdnt": "549,585,655,707,763,826,882,980,1053,1100,1160,1225,1294,1337,1386,1416,1423,1440,1443,1446,1438,1429,1412,1388,1354,1333,1313,1283,1269,1213,1114,1016,899,864,806,756,716,669,625,576,547"
+    },
+    "plants": {
+        "wd_plnt_nm": "구실잣밤나무",
+        "scientific_nm": "Castanopsis sieboldii (Makino) Hatus. ex T. Yamaz. & Mashiba, 1971.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "열매",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "57.8|18.2|82.4",
+        "nutrient": "15.3|15.2|16.7"
+    },
+    "ingredient": {
+        "irdnt_nm": "1,2,3,6-Tetra-O-galloyl-D-glucose|quercetin-3-O-glucoside|1,2,6-tris-O-galloyl-β-D-glucose|Quercetin-3-O-α-D-glucuronide|Mudanpioside E|3,6-Di-O-Galloyl-β-D-glucose|1-Galloylglucose|Sesamoside|Secologanoside|Methyl 11α-hydroxytormentate",
+        "irdnt_ncl": "-0.6|-0.5|-0.6|-0.7|-0.7|-0.9|-0.7|-0.5|-0.5|0.6",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

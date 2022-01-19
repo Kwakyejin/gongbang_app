@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "040"
+    },
+    "images": {
+        "image_file_id": "CR040_03_51481b",
+        "image_file_nm": "CR040_03_51481b.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\040\\CR040_03_51481b.jpg",
+        "rsoltn": "353, 353",
+        "region_nm": "제주특별자치도 제주시 용담동",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-08-12 17:16:29"
+    },
+    "annotations": {
+        "antn_id": 3426068,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "040",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "순비기나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "42,42,45,49,55,61,65,72,80,92,102,113,123,130,136,142,147,152,155,157,159,164,170,177,189,200,206,212,218,223,227,230,234,237,237,237,233,228,221,213,208,203,196,186,174,179,189,194,202,206,209,210,209,206,201,194,186,175,166,158,151,144,134,124,118,112,106,100,96,94,91,89,89,86,79,73,72,70,65,60,61,69,77,77,79,79,75,69,65,62,60,56,53,53,49,44,42,40,39,41,42,42",
+        "pyn_ycrdnt": "106,100,91,86,82,78,73,65,58,56,54,54,55,57,60,64,68,74,80,90,100,104,107,107,107,107,110,113,120,124,130,136,145,155,166,176,186,195,202,210,214,216,218,220,222,225,230,237,245,254,264,274,285,294,304,311,318,323,328,332,333,333,331,329,325,320,318,314,309,302,292,282,275,269,270,270,263,257,249,244,240,238,238,233,224,217,207,203,199,192,186,180,174,167,158,148,138,127,120,114,107,106"
+    },
+    "plants": {
+        "wd_plnt_nm": "순비기나무",
+        "scientific_nm": "Vitex rotundifolia L. f., 1781.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "08월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "67.0|3.6|72.4",
+        "nutrient": "15.3|15.2|15.0"
+    },
+    "ingredient": {
+        "irdnt_nm": "Agnuside|Oxypaeoniflorin|Trifolin|Kaempferol 3-O-β-D-glucuronide|Cimicifugic acid B|Apigenin-7-O-acetyl-β-D-glucoside|20(S)-Ginsenoside Rh2|5,6,4-Trihydroxy-7,8-dimethoxyflavone",
+        "irdnt_ncl": "-0.2|-0.1|-0.3|0.1|0.0|-0.4|-0.4|0.9",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

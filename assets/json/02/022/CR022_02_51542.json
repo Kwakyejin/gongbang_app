@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "022"
+    },
+    "images": {
+        "image_file_id": "CR022_02_51542",
+        "image_file_nm": "CR022_02_51542.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\02\\022\\CR022_02_51542.jpg",
+        "rsoltn": "332, 332",
+        "region_nm": "농산물원종장",
+        "region_type": "평지",
+        "plant_part": "꽃",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-10-01 14:12:15"
+    },
+    "annotations": {
+        "antn_id": 3520396,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "02",
+        "object_class_mlsft_code": "022",
+        "object_class_sclas_code": "02",
+        "object_class_lclas_nm": "초본",
+        "object_class_mlsft_nm": "큰조롱",
+        "object_class_sclas_nm": "꽃",
+        "pyn_xcrdnt": "140,139,131,130,127,122,116,110,101,92,82,74,62,61,66,74,80,89,99,104,95,96,101,108,120,129,132,135,141,139,135,130,129,124,122,122,121,124,121,125,137,143,140,144,149,155,160,164,174,177,196,195,197,211,212,198,192,184,183,181,178,174,173,180,188,193,193,192,199,215,229,233,231,228,239,235,224,215,208,197,188,181,177,185,179,188,197,197,191,184,166,166,165,160,154,148,145,139,133,127,125,122,124,128,138",
+        "pyn_ycrdnt": "96,108,110,103,99,95,94,98,102,108,112,123,126,132,135,133,138,142,141,148,155,164,164,160,168,169,180,185,188,202,205,215,226,232,241,253,264,276,284,288,284,283,295,299,300,297,292,285,290,319,322,278,270,269,261,255,244,238,228,215,198,187,179,178,169,160,150,140,145,147,141,134,123,116,112,105,106,100,97,100,108,119,113,102,95,84,74,66,66,67,62,51,41,28,27,31,38,42,46,44,50,60,68,74,82"
+    },
+    "plants": {
+        "wd_plnt_nm": "큰조롱",
+        "scientific_nm": "Cynanchum wilfordii (Maxim.) Hemsl., 1889.",
+        "woody_herbal": "2",
+        "edible_yn": "Y",
+        "edible_part": "뿌리(물추출물에 한함)",
+        "acquisition_term": "10월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "0.0|0.0|0.0",
+        "nutrient": "15.1|15.6|16.0"
+    },
+    "ingredient": {
+        "irdnt_nm": "Polygoacetophenoside|Kaempferol 3-O-β-D-glucopyranoside|Quercetin-3-O-xyloside|Quercetin-3-O-α-D-glucuronide|Kaempferol-3-O-β-D-glucuronide|Catechin-3-O-gallate|Bruceine H|Procyanidin B1|Sanleng acid|1-Galloyl-glucose",
+        "irdnt_ncl": "2.8|0.4|0.4|-0.3|0.2|0.0|0.6|0.0|0.2|0.6",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

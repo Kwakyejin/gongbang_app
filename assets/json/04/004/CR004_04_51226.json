@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "004"
+    },
+    "images": {
+        "image_file_id": "CR004_04_51226",
+        "image_file_nm": "CR004_04_51226.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\04\\004\\CR004_04_51226.jpg",
+        "rsoltn": "2080, 2080",
+        "region_nm": "한라생태숲",
+        "region_type": "경사지",
+        "plant_part": "잎-앞면",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-08-05 12:59:40"
+    },
+    "annotations": {
+        "antn_id": 3326018,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "004",
+        "object_class_sclas_code": "04",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "참식나무",
+        "object_class_sclas_nm": "잎-앞면",
+        "pyn_xcrdnt": "195,239,290,333,384,385,423,473,536,582,634,682,743,807,870,940,986,1040,1086,1150,1212,1264,1308,1355,1379,1429,1463,1504,1541,1580,1619,1657,1695,1725,1747,1779,1809,1838,1877,1921,1941,1945,1942,1915,1889,1861,1830,1800,1768,1741,1699,1659,1620,1572,1525,1492,1473,1472,1453,1417,1386,1350,1317,1297,1269,1242,1207,1197,1138,1100,1064,1037,1022,981,936,899,871,845,835,817,770,742,714,681,640,576,553,516,476,445,425,385,354,311,269,241,212,192,183,178,178,186",
+        "pyn_ycrdnt": "1028,1018,1007,1001,986,986,980,964,940,923,897,882,862,847,823,814,814,811,812,818,819,831,848,865,874,892,906,917,940,962,985,1000,1022,1046,1066,1087,1113,1131,1141,1154,1169,1185,1195,1197,1188,1175,1172,1174,1181,1194,1209,1229,1249,1255,1254,1243,1236,1236,1233,1235,1243,1253,1252,1244,1228,1215,1208,1208,1224,1224,1215,1197,1190,1181,1170,1164,1165,1170,1170,1170,1163,1148,1137,1129,1122,1100,1086,1067,1055,1049,1037,1048,1055,1061,1066,1076,1082,1082,1075,1060,1041,1031"
+    },
+    "plants": {
+        "wd_plnt_nm": "참식나무",
+        "scientific_nm": "Neolitsea sericea (Blume) Koidz., 1926.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "08월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "41.8|11.3|74.3",
+        "nutrient": "15.6|16.2|15.5"
+    },
+    "ingredient": {
+        "irdnt_nm": "Dihydrokaempferol-5-O-β-D-glucopyranoside|Trifolin|6-Hydroxykaempferol 3-glucoside|Procyanidin B1|Kaempferol 3-O-(6\"-O-p-coumaroyl)glucoside|1,6,7-Trihydroxy-2,3-dimethoxyxanthone|Gaillardin|Darendoside A|Cimidahurinine|Vernolic acid",
+        "irdnt_ncl": "0.5|0.7|0.0|-0.6|-0.1|0.3|0.8|0.4|0.3|0.0",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

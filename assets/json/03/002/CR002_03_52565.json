@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "002"
+    },
+    "images": {
+        "image_file_id": "CR002_03_52565",
+        "image_file_nm": "CR002_03_52565.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\002\\CR002_03_52565.jpg",
+        "rsoltn": "527, 527",
+        "region_nm": "무수천",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-08-13 11:47:45"
+    },
+    "annotations": {
+        "antn_id": 3404757,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "002",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "좁은잎천선과",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "197,208,217,226,242,251,263,272,284,302,331,352,370,388,398,415,427,436,445,450,457,464,471,480,483,487,490,492,496,497,496,494,486,485,481,472,465,459,454,442,432,418,407,399,384,370,357,345,336,321,303,294,270,260,248,233,224,214,207,195,184,169,162,156,148,139,135,127,125,127,133,138,142,144,145,150,153,158,162,168,177,186,193",
+        "pyn_ycrdnt": "136,127,122,115,106,100,95,93,90,88,85,86,90,95,100,109,117,123,129,138,146,159,168,182,191,198,205,218,231,249,267,281,298,307,319,333,348,358,364,375,386,396,403,410,416,421,423,425,426,427,426,425,420,417,415,409,402,394,389,383,379,375,371,366,358,347,339,327,318,308,293,279,262,250,241,231,217,204,190,177,164,154,142"
+    },
+    "plants": {
+        "wd_plnt_nm": "좁은잎천선과",
+        "scientific_nm": "Ficus erecta var. sieboldii (Miq.) King, 1888.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "잎, 열매",
+        "acquisition_term": "08월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "13.4|13.8|51.6",
+        "nutrient": "16.1|15.5|16.2"
+    },
+    "ingredient": {
+        "irdnt_nm": "Cnidimol F|6-Hydroxykaempferol 3-glucoside|(E,E)-9-Oxooctadeca-10,12-dienoic acid|Sanleng acid|1-O-Caffeoyl-β-D-glucopyranose|morroniside|3-O-trans-p-Coumaroyl alphitolic acid|Curculigoside B|Kaempferol 3,7-diglucoside|Procyanidin B8",
+        "irdnt_ncl": "0.4|0.9|0.3|0.2|0.9|0.1|0.6|0.0|-0.6|0.4",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

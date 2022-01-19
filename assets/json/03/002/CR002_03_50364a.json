@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "002"
+    },
+    "images": {
+        "image_file_id": "CR002_03_50364a",
+        "image_file_nm": "CR002_03_50364a.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\002\\CR002_03_50364a.jpg",
+        "rsoltn": "966, 966",
+        "region_nm": "제주특별자치도 제주시 오등동",
+        "region_type": "경사지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-08-05 13:28:53"
+    },
+    "annotations": {
+        "antn_id": 3449676,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "002",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "좁은잎천선과",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "548,531,517,503,490,478,467,456,445,435,427,418,410,402,395,387,381,375,371,368,364,362,361,360,360,360,361,363,372,385,398,404,407,408,408,406,405,410,418,427,439,451,463,475,488,501,516,528,544,555,567,584,597,612,627,642,662,682,697,715,729,743,758,771,783,796,809,820,830,839,848,857,865,873,880,884,887,890,892,893,893,893,893,896,899,902,905,906,905,904,902,897,891,885,878,866,855,842,828,816,804,792,781,769,757,745,732,718,704,690,673,657,638,619,601,579,565",
+        "pyn_ycrdnt": "143,148,152,157,164,173,183,193,204,215,227,240,252,265,278,291,305,319,333,348,362,377,392,407,422,437,452,464,475,484,492,498,503,509,521,536,544,549,557,564,574,583,592,600,608,614,622,630,637,643,647,653,657,660,663,664,665,663,661,658,653,648,643,636,628,620,611,602,591,579,567,555,542,530,516,502,487,472,458,443,428,413,398,383,368,354,339,332,325,318,310,296,281,268,255,245,236,229,223,214,205,196,186,177,168,159,152,146,140,135,133,131,129,129,129,132,137"
+    },
+    "plants": {
+        "wd_plnt_nm": "좁은잎천선과",
+        "scientific_nm": "Ficus erecta var. sieboldii (Miq.) King, 1888.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "잎, 열매",
+        "acquisition_term": "08월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "13.4|13.8|51.6",
+        "nutrient": "16.1|15.5|16.2"
+    },
+    "ingredient": {
+        "irdnt_nm": "Cnidimol F|6-Hydroxykaempferol 3-glucoside|(E,E)-9-Oxooctadeca-10,12-dienoic acid|Sanleng acid|1-O-Caffeoyl-β-D-glucopyranose|morroniside|3-O-trans-p-Coumaroyl alphitolic acid|Curculigoside B|Kaempferol 3,7-diglucoside|Procyanidin B8",
+        "irdnt_ncl": "0.4|0.9|0.3|0.2|0.9|0.1|0.6|0.0|-0.6|0.4",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}
