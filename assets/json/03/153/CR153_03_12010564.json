@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": 153
+    },
+    "images": {
+        "image_file_id": "CR153_03_12010564",
+        "image_file_nm": "CR153_03_12010564.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\153\\CR153_03_12010564.jpg",
+        "rsoltn": "1697, 1697",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-25 10:11:11"
+    },
+    "annotations": {
+        "antn_id": 3692385,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": 153,
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "백량금",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "921,923,936,937,969,974,985,991,1027,1042,1055,1064,1062,1062,1081,1095,1097,1114,1119,1121,1125,1126,1130,1126,1125,1121,1103,1101,1092,1088,1062,1002,939,893,842,791,756,739,747,752,769,772,774,767,765,754,752,750,758,763,765,769,771,778,787,805,827,840,846,859,873,895,897",
+        "pyn_ycrdnt": "587,585,585,587,589,593,594,598,616,626,624,620,627,642,660,682,688,721,732,739,747,760,780,796,820,831,866,873,884,892,917,947,956,945,919,943,950,937,921,908,875,868,842,824,818,800,776,760,769,734,721,714,699,681,664,637,616,609,607,600,594,589,587"
+    },
+    "plants": {
+        "wd_plnt_nm": "백량금",
+        "scientific_nm": "Ardisia crenata",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "분석 진행중",
+        "nutrient": "분석 진행중"
+    },
+    "ingredient": {
+        "irdnt_nm": "분석 진행중",
+        "irdnt_ncl": "분석 진행중",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

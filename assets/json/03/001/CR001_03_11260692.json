@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "001"
+    },
+    "images": {
+        "image_file_id": "CR001_03_11260692",
+        "image_file_nm": "CR001_03_11260692.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\001\\CR001_03_11260692.jpg",
+        "rsoltn": "3024, 3024",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-25 11:10:06"
+    },
+    "annotations": {
+        "antn_id": 3708156,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "001",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "까마귀쪽나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "1472,1445,1429,1419,1404,1400,1404,1409,1419,1432,1454,1478,1499,1525,1549,1571,1583,1608,1619,1650,1655,1684,1733,1770,1790,1831,1876,1906,1941,1973,2002,2037,2069,2086,2100,2119,2144,2158,2168,2174,2179,2184,2186,2185,2181,2177,2169,2157,2135,2127,2104,2090,2064,2032,1997,1975,1969,1951,1931,1912,1889,1851,1818,1770,1741,1708,1687,1664,1653,1637,1595,1552,1509",
+        "pyn_ycrdnt": "1280,1301,1326,1348,1391,1417,1451,1505,1538,1586,1620,1653,1682,1706,1726,1741,1746,1763,1768,1775,1776,1807,1849,1878,1891,1912,1933,1943,1948,1955,1955,1952,1942,1935,1925,1908,1885,1869,1858,1834,1801,1770,1740,1710,1685,1657,1619,1580,1530,1509,1478,1454,1427,1398,1370,1357,1340,1306,1276,1252,1237,1220,1201,1185,1185,1191,1192,1189,1197,1202,1214,1237,1259"
+    },
+    "plants": {
+        "wd_plnt_nm": "까마귀쪽나무",
+        "scientific_nm": "Litsea japonica (Thunb.) Juss., 1801.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "열매",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "72.0|28.7|71.4",
+        "nutrient": "16.2|15.9|16.0"
+    },
+    "ingredient": {
+        "irdnt_nm": "Kaempferol-7-rhamnoside|chlorogenic acid|Questin|Chrysosplenetin B|Myricetin 3-O-glucoside|(E,E)-9-Oxooctadeca-10,12-dienoic acid|6-Hydroxykaempferol 3-glucoside|Luteolin-7-beta-neohesperidoside|lithospermic acid B|Trifolin",
+        "irdnt_ncl": "-0.1|-1.9|-0.5|-0.3|-0.1|0.5|0.2|0.8|0.3|1.0",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

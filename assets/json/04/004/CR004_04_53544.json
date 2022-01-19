@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "004"
+    },
+    "images": {
+        "image_file_id": "CR004_04_53544",
+        "image_file_nm": "CR004_04_53544.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\04\\004\\CR004_04_53544.jpg",
+        "rsoltn": "1965, 1965",
+        "region_nm": "연동",
+        "region_type": "평지",
+        "plant_part": "잎-앞면",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-10-22 15:12:14"
+    },
+    "annotations": {
+        "antn_id": 3575512,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "004",
+        "object_class_sclas_code": "04",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "참식나무",
+        "object_class_sclas_nm": "잎-앞면",
+        "pyn_xcrdnt": "427,411,386,364,307,298,323,345,396,416,427,437,439,461,481,489,504,524,554,567,595,630,671,677,710,755,813,865,908,956,987,1037,1093,1162,1220,1285,1343,1390,1422,1453,1497,1553,1618,1685,1685,1672,1612,1564,1522,1486,1457,1429,1384,1362,1322,1311,1304,1292,1276,1245,1213,1192,1153,1103,1054,1000,952,905,862,811,765,729,691,641,579,507,467",
+        "pyn_ycrdnt": "1609,1662,1704,1748,1816,1770,1712,1659,1602,1573,1511,1447,1389,1325,1274,1210,1145,1101,1064,991,926,875,820,770,720,701,681,656,623,577,540,501,475,466,453,416,396,353,293,246,214,196,201,206,238,261,245,241,248,271,309,366,423,464,528,574,651,729,803,876,940,1008,1064,1106,1149,1199,1247,1297,1332,1358,1370,1397,1440,1489,1528,1559,1577"
+    },
+    "plants": {
+        "wd_plnt_nm": "참식나무",
+        "scientific_nm": "Neolitsea sericea (Blume) Koidz., 1926.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "10월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "41.8|11.3|74.3",
+        "nutrient": "15.6|16.2|15.5"
+    },
+    "ingredient": {
+        "irdnt_nm": "Dihydrokaempferol-5-O-β-D-glucopyranoside|Trifolin|6-Hydroxykaempferol 3-glucoside|Procyanidin B1|Kaempferol 3-O-(6\"-O-p-coumaroyl)glucoside|1,6,7-Trihydroxy-2,3-dimethoxyxanthone|Gaillardin|Darendoside A|Cimidahurinine|Vernolic acid",
+        "irdnt_ncl": "0.5|0.7|0.0|-0.6|-0.1|0.3|0.8|0.4|0.3|0.0",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

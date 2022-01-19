@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "020"
+    },
+    "images": {
+        "image_file_id": "CR020_03_53593a",
+        "image_file_nm": "CR020_03_53593a.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\020\\CR020_03_53593a.jpg",
+        "rsoltn": "435, 435",
+        "region_nm": "제주대학교",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-08-17 17:10:58"
+    },
+    "annotations": {
+        "antn_id": 3456085,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "020",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "돈나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "82,102,119,134,149,165,195,233,273,302,324,343,357,369,374,378,379,378,377,373,362,345,334,319,305,292,277,263,233,212,188,169,141,120,104,90,82,75,60,52,44,43,46,49,63",
+        "pyn_ycrdnt": "118,87,72,63,58,52,48,47,53,69,88,111,139,172,193,212,228,251,265,282,301,315,321,330,338,351,365,378,380,380,376,369,361,352,341,330,321,313,286,262,227,210,192,175,148"
+    },
+    "plants": {
+        "wd_plnt_nm": "돈나무",
+        "scientific_nm": "Pittosporum tobira (Thunb.) W. T. Aiton, 1811.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "08월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "88.7|9.7|52.1",
+        "nutrient": "15.3|15.7|15.6"
+    },
+    "ingredient": {
+        "irdnt_nm": "Chlorogenic acid|Methyl chlorogenate|3-O-trans-Coumaroylquinic acid|1-O-Caffeoyl-β-D-glucopyranose|akebia saponin E|Lablaboside D|Vernolic acid|Methyl chlorogenate|(E,E)-9-Oxooctadeca-10,12-dienoic acid|Shikimic acid",
+        "irdnt_ncl": "0.5|0.3|0.8|1.3|0.6|0.4|1.6|0.7|1.7|3.5",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

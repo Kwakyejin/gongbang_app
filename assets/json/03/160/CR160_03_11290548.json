@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": 160
+    },
+    "images": {
+        "image_file_id": "CR160_03_11290548",
+        "image_file_nm": "CR160_03_11290548.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\160\\CR160_03_11290548.jpg",
+        "rsoltn": "2243, 2243",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-25 11:33:01"
+    },
+    "annotations": {
+        "antn_id": 3700078,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": 160,
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "꽝꽝나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "1190,1225,1258,1291,1335,1361,1383,1410,1434,1460,1485,1504,1528,1543,1569,1593,1596,1596,1577,1588,1596,1592,1586,1574,1565,1540,1516,1493,1471,1428,1401,1371,1339,1319,1280,1236,1203,1150,1117,1085,1032,972,924,891,866,836,812,793,782,778,779,786,804,827,877,938,987,1033,1075,1136",
+        "pyn_ycrdnt": "740,743,746,754,772,785,798,817,835,858,886,913,955,981,981,1012,1044,1061,1074,1118,1151,1206,1253,1288,1313,1359,1389,1412,1435,1470,1488,1504,1520,1527,1535,1545,1549,1543,1538,1527,1508,1472,1430,1394,1365,1320,1267,1217,1155,1103,1059,1016,965,919,857,815,787,769,754,743"
+    },
+    "plants": {
+        "wd_plnt_nm": "꽝꽝나무",
+        "scientific_nm": "Ilex crenata",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "뿌리, 줄기(제한 사용)",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "분석 진행중",
+        "nutrient": "분석 진행중"
+    },
+    "ingredient": {
+        "irdnt_nm": "분석 진행중",
+        "irdnt_ncl": "분석 진행중",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

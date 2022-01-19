@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": 160
+    },
+    "images": {
+        "image_file_id": "CR160_03_11290371",
+        "image_file_nm": "CR160_03_11290371.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\160\\CR160_03_11290371.jpg",
+        "rsoltn": "1901, 1901",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-25 11:27:11"
+    },
+    "annotations": {
+        "antn_id": 3700420,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": 160,
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "꽝꽝나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "669,722,774,806,812,847,845,823,815,842,854,869,876,922,938,974,989,1000,1020,1008,988,985,995,1023,1074,1137,1214,1273,1313,1342,1365,1368,1386,1421,1438,1470,1452,1425,1375,1308,1268,1236,1189,1120,1062,992,922,837,748,681,618,582,553,539,542,557,593,642",
+        "pyn_ycrdnt": "563,521,503,492,469,437,420,417,405,379,394,397,424,422,417,441,431,417,424,457,475,489,499,497,500,516,574,642,701,758,827,866,899,932,963,1026,1073,1148,1197,1237,1242,1246,1290,1318,1330,1332,1326,1299,1255,1201,1125,1062,983,900,807,730,654,586"
+    },
+    "plants": {
+        "wd_plnt_nm": "꽝꽝나무",
+        "scientific_nm": "Ilex crenata",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "뿌리, 줄기(제한 사용)",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "분석 진행중",
+        "nutrient": "분석 진행중"
+    },
+    "ingredient": {
+        "irdnt_nm": "분석 진행중",
+        "irdnt_ncl": "분석 진행중",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

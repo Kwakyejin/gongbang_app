@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "009"
+    },
+    "images": {
+        "image_file_id": "CR009_05_52595",
+        "image_file_nm": "CR009_05_52595.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\05\\009\\CR009_05_52595.jpg",
+        "rsoltn": "1473, 1473",
+        "region_nm": "성산",
+        "region_type": "평지",
+        "plant_part": "잎-뒷면",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-10-29 15:19:05"
+    },
+    "annotations": {
+        "antn_id": 3580372,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "02",
+        "object_class_mlsft_code": "009",
+        "object_class_sclas_code": "05",
+        "object_class_lclas_nm": "초본",
+        "object_class_mlsft_nm": "메밀",
+        "object_class_sclas_nm": "잎-뒷면",
+        "pyn_xcrdnt": "1071,1083,1062,1048,1046,1043,1041,1056,1061,1036,1004,962,925,881,838,822,808,799,776,741,721,689,657,602,568,533,504,469,424,381,327,285,242,205,168,146,138,156,206,247,299,338,396,468,548,605,674,716,775,815,864,890,922,947,1003,1043,1087,1122,1146,1169,1222,1255,1289,1345,1346,1334,1304,1277,1260,1241,1204,1172,1131,1098,1094,1110,1133,1138,1125,1113,1090",
+        "pyn_ycrdnt": "611,577,564,534,496,449,424,374,348,331,320,326,330,343,355,375,408,433,474,514,558,597,620,655,690,715,740,765,793,828,871,896,927,945,969,986,1011,1029,1032,1034,1041,1040,1044,1038,1033,1021,1012,1006,1003,997,994,990,982,980,996,1015,1022,1019,1025,1010,1013,1006,999,976,953,941,917,887,857,825,788,752,720,683,654,664,657,641,632,641,621"
+    },
+    "plants": {
+        "wd_plnt_nm": "메밀",
+        "scientific_nm": "Fagopyrum esculentum Moench, 1794.",
+        "woody_herbal": "2",
+        "edible_yn": "Y",
+        "edible_part": "잎, 줄기, 꽃, 씨앗",
+        "acquisition_term": "10월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "8.9|9.0|0.0",
+        "nutrient": "15.1|15.8|15.2"
+    },
+    "ingredient": {
+        "irdnt_nm": "6-Hydroxykaempferol-3-O-glucoside|Kaempferol 3-O-β-D-glucopyranoside|1-O-Caffeoyquinic acid|Cnidimol F|Procyanidin B8|Rhamnetin|1-Galloyl-glucose|QuinquenosideⅠ|5,7,8,3-Tetrahydroxy-3,4-dimethoxy flavone|3,5-Dihydroxybenzoic acid",
+        "irdnt_ncl": "0.6|0.4|-0.3|0.5|-0.4|0.0|0.0|-0.2|0.4|0.5",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

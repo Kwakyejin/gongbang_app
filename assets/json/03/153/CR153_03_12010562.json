@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": 153
+    },
+    "images": {
+        "image_file_id": "CR153_03_12010562",
+        "image_file_nm": "CR153_03_12010562.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\153\\CR153_03_12010562.jpg",
+        "rsoltn": "1568, 1568",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-25 10:11:57"
+    },
+    "annotations": {
+        "antn_id": 3692387,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": 153,
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "백량금",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "776,778,795,817,827,839,868,875,881,892,898,915,932,948,949,959,963,968,976,985,992,992,990,987,987,985,981,978,973,971,968,965,934,895,841,783,714,681,649,646,636,620,617,612,610,607,605,605,610,612,620,636,641,642,663,673,687,693,700,705,732,749,759",
+        "pyn_ycrdnt": "527,525,525,527,531,532,542,546,549,553,559,575,592,609,614,626,632,639,658,664,675,681,698,712,734,746,758,778,793,800,805,812,856,883,907,909,885,870,836,829,817,787,781,766,754,748,732,705,673,659,637,609,602,597,575,568,558,554,549,548,536,531,527"
+    },
+    "plants": {
+        "wd_plnt_nm": "백량금",
+        "scientific_nm": "Ardisia crenata",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "분석 진행중",
+        "nutrient": "분석 진행중"
+    },
+    "ingredient": {
+        "irdnt_nm": "분석 진행중",
+        "irdnt_ncl": "분석 진행중",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

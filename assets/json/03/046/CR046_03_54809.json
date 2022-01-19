@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "046"
+    },
+    "images": {
+        "image_file_id": "CR046_03_54809",
+        "image_file_nm": "CR046_03_54809.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\046\\CR046_03_54809.jpg",
+        "rsoltn": "549, 549",
+        "region_nm": "농산물원종장",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-10-01 16:25:19"
+    },
+    "annotations": {
+        "antn_id": 3524171,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "046",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "황근",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "425,413,405,393,378,364,350,337,327,327,319,311,306,300,290,279,261,247,231,220,215,204,177,172,149,139,128,117,114,114,120,128,132,121,114,113,120,130,149,145,135,124,117,113,98,85,76,73,60,50,45,45,48,57,69,88,104,110,113,116,119,123,130,150,155,160,167,176,189,196,199,208,220,239,259,281,293,301,321,342,355,369,377,401,414,422,432,439,438,435,430",
+        "pyn_ycrdnt": "230,214,196,179,168,160,153,149,148,138,133,132,135,131,130,131,124,127,132,136,138,138,139,135,125,119,111,110,116,125,138,143,153,153,159,166,178,189,199,209,226,238,248,260,264,270,277,290,297,309,322,336,344,346,346,346,347,350,360,372,382,388,389,396,402,410,427,432,434,433,425,433,442,449,455,456,452,448,442,434,432,426,417,400,387,364,335,307,282,260,241"
+    },
+    "plants": {
+        "wd_plnt_nm": "황근",
+        "scientific_nm": "Hibiscus hamabo Siebold & Zucc., 1841.",
+        "woody_herbal": "1",
+        "edible_yn": "N",
+        "edible_part": "N/A",
+        "acquisition_term": "10월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "41.1|13.3|0.0",
+        "nutrient": "15.0|15.4|15.6"
+    },
+    "ingredient": {
+        "irdnt_nm": "Procyanidin B1|(E,E)-9-oxooctadeca-10,12-dienoic acid|Quinquenoside I|Tianshic acid|Kaempferol-3-Glucoside-2-p-coumaroyl|6-Hydroxykaempferol-3-O-glucoside|Vernolic acid|Acrinidioionoside|Decaffeoylverbascoside|Glucosyringic acid",
+        "irdnt_ncl": "-0.1|-0.1|0.7|0.9|-0.4|-0.4|0.6|-0.5|0.3|-0.5",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "info": {
+        "datast_nm": "식의약용 자생식물 분석 데이터",
+        "datast_detail": "식의약용 자생식물 60종별로 식물종분류를 판별(인식)하기 위한 식물의 부위별(꽃, 열매, 잎앞면, 잎뒷면) AI 학습데이터",
+        "wd_plnt_idntfr": "043"
+    },
+    "images": {
+        "image_file_id": "CR043_03_11240816",
+        "image_file_nm": "CR043_03_11240816.jpg",
+        "file_stre_cours": "\\식의약용 자생식물 분석 데이터\\03\\043\\CR043_03_11240816.jpg",
+        "rsoltn": "3024, 3024",
+        "region_nm": "한라수목원",
+        "region_type": "평지",
+        "plant_part": "열매",
+        "grwh_step_nm": " ",
+        "image_file_frmat": "JPG",
+        "image_potogrf_dt": "2021-11-22 17:09:35"
+    },
+    "annotations": {
+        "antn_id": 3631657,
+        "antn_ty": "POLYGON",
+        "object_class_lclas_code": "01",
+        "object_class_mlsft_code": "043",
+        "object_class_sclas_code": "03",
+        "object_class_lclas_nm": "목본",
+        "object_class_mlsft_nm": "참가시나무",
+        "object_class_sclas_nm": "열매",
+        "pyn_xcrdnt": "1582,1606,1616,1599,1603,1616,1639,1659,1682,1703,1716,1736,1780,1790,1845,1863,1880,1893,1896,1907,1917,1923,1933,1940,1943,1927,1917,1914,1870,1843,1787,1706,1632,1576,1514,1428,1347,1281,1184,1154,1140,1126,1097,1086,1076,1067,1063,1057,1060,1067,1070,1085,1092,1099,1110,1117,1123,1140,1167,1181,1227,1257,1268,1294,1318,1328,1365,1395,1431,1463,1476,1477,1494,1518,1529,1548,1558,1567",
+        "pyn_ycrdnt": "486,495,525,532,559,569,582,593,602,615,619,628,652,656,706,724,752,776,789,813,836,854,890,934,1024,1108,1137,1151,1229,1265,1326,1389,1439,1461,1470,1465,1434,1399,1316,1275,1258,1235,1174,1151,1121,1087,1050,1028,913,890,867,825,806,783,763,752,739,712,683,662,619,599,596,582,572,565,556,552,546,548,538,520,508,508,510,520,506,490"
+    },
+    "plants": {
+        "wd_plnt_nm": "참가시나무",
+        "scientific_nm": "Quercus salicina Blume, 1850.",
+        "woody_herbal": "1",
+        "edible_yn": "Y",
+        "edible_part": "열매",
+        "acquisition_term": "11월",
+        "efficacy": "항염증|면역증진|항산화",
+        "efficacy_ncl": "46.4|17.1|82.6",
+        "nutrient": "15.4|15.2|15.5"
+    },
+    "ingredient": {
+        "irdnt_nm": "Madecassoside|Ellagic acid|Quinic acid|2,3-(S)-hexahydroxydiphenoyl-D-glucose|3-O-Methylellagic acid|Ethyl caffeate|3,3-Di-O-methylellagic acid|Tianshic acid|2,3-(S)-hexahydroxydiphenoyl-D-glucose|Yamogenin acetate",
+        "irdnt_ncl": "-1.4|0.2|-0.1|-0.2|-0.7|0.7|0.5|0.3|-0.7|1.7",
+        "irdnt_chmcls_strct": " ",
+        "irdnt_anals_instlm": "제주산학융합원"
+    },
+    "licenses": {
+        "lcnse_nm": "CC-BY-SA"
+    }
+}
