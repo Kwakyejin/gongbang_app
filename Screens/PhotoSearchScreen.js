@@ -5,46 +5,34 @@ import {
   Text,
   View,
   TouchableOpacity,
+  Alert,
 } from "react-native";
 import camera from "../assets/bi_camera-fill.svg";
 import photo from "../assets/bi_image.svg";
 import { WithLocalSvg } from "react-native-svg";
+import {} from "@react-navigation/native";
+import GalleryScreen from "./GalleryScreen";
+import CameraScreen from "./CameraScreen";
 import * as ImagePicker from "expo-image-picker";
-import { useSelector } from "react-redux";
 
-const PhotoSearchScreen = ({}) => {
-  const [image, setImage] = useState(null);
-  const userInfo = useSelector((state) => state.user);
+const pickImage = async () => {
+  let result = await ImagePicker.launchImageLibraryAsync({
+    mediaTypes: ImagePicker.MediaTypeOptions.Images,
+    allowEditing: true,
+    aspect: [1, 1],
+    quality: 1,
+  });
 
-  useEffect(() => {
-    (async () => {
-      if (Platform.OS !== "web") {
-        const { status } =
-          await ImagePicker.requestMediaLibraryPermissionsAsync();
-        if (status !== "granted") {
-          Alert.alert("권한을 승인해주십시오.");
-        }
-      }
-    })();
-  }, []);
+  if (!result.cancelled) {
+    setImage(result.uri);
+  }
+};
 
-  const pickImage = async () => {
-    let result = await ImagePicker.launchImageLibraryAsync({
-      base64: true,
-      mediaTypes: ImagePicker.MediaTypeOptions.All,
-      allowsEditing: true,
-      aspect: [1, 1],
-      quality: 0.5,
-    });
-    if (!result.cancelled) {
-      setImage(result.base64);
-    }
-  };
-
+const PhotoSearchScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.style1}>
       <SafeAreaView style={styles.style2}>
-        <TouchableOpacity onPress={() => navigation.navigate("CameraScreen")}>
+        <TouchableOpacity onPress={() => navigation.navigate("카메라")}>
           <View style={styles.card}>
             <WithLocalSvg width={100} height={110} asset={camera} />
             <Text
@@ -57,7 +45,7 @@ const PhotoSearchScreen = ({}) => {
             </Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => pickImage}>
+        <TouchableOpacity onPress={() => pickImage()}>
           <View style={styles.card}>
             <WithLocalSvg width={100} height={110} asset={photo} />
             <Text
