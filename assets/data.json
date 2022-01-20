@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "id": "009",
+      "name": "메밀",
+      "place": "평지",
+      "shape": "초본",
+      "study_name": "Fagopyrum esculentum Moench, 1794.",
+      "can_eat": true,
+      "can_eat_parts": ["잎", "줄기", "꽃", "씨앗"],
+      "month": 6,
+      "anti_inflammatory": 8.9,
+      "immune_boost": 9.0,
+      "antioxidant": 0.0
+    }
+  ]
+}

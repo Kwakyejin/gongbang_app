@@ -5,6 +5,7 @@ import {
   View,
   SafeAreaView,
   TouchableOpacity,
+  Linking,
 } from "react-native";
 import test from "../assets/wpf_survey.svg";
 import { WithLocalSvg } from "react-native-svg";
@@ -13,7 +14,11 @@ const TestScreen = () => {
   return (
     <SafeAreaView style={styles.style1}>
       <SafeAreaView style={styles.style2}>
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={() =>
+            Linking.openURL("https://fw76po70tgw.typeform.com/to/kXlFwBq9")
+          }
+        >
           <View style={styles.card}>
             <WithLocalSvg width={115} height={113} asset={test} />
             <Text

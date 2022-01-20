@@ -9,6 +9,9 @@ import ShopScreen from "../Screens/ShopScreen";
 import TestScreen from "../Screens/TestScreen";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import MainScreen from "../Screens/HomeScreen";
+import Camera from "../Screens/CameraScreen";
+import gallery from "../Screens/GalleryScreen";
+import CameraScreen from "../Screens/CameraScreen";
 
 const Tab = createBottomTabNavigator();
 
@@ -100,6 +103,20 @@ const Tabs = ({}) => {
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons
               name="clipboard-check-outline"
+              color={color}
+              size={size}
+            />
+          ),
+          tabBarActiveTintColor: "#3bc726",
+        }}
+      />
+      <Tab.Screen
+        name="카메라"
+        component={CameraScreen}
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons
+              name="camera-plus"
               color={color}
               size={size}
             />
