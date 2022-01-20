@@ -8,6 +8,7 @@ import {
   Button,
 } from "react-native";
 import { Camera } from "expo-camera";
+import flowerCheck from "./flowerCheck";
 
 export default function CameraScreen() {
   const [hasPermission, setHasPermission] = useState(null);
@@ -17,8 +18,8 @@ export default function CameraScreen() {
 
   const takePicture = async () => {
     if (camera) {
-      const data = await camera.takePictureAsync(null);
-      setImage(data.url);
+      const data = await camera.takePictureAsync(camera.current);
+      setImage(data.uri);
     }
   };
   useEffect(() => {
@@ -27,6 +28,14 @@ export default function CameraScreen() {
       setHasPermission(status === "granted");
     })();
   }, []);
+
+  useEffect(async () => {
+    if (Image != null) {
+      const resultInfo = await flowerCheck(Image, 0.95);
+      console.log(resultInfo);
+      setImage(null);
+    }
+  }, [Image]);
 
   if (hasPermission === null) {
     return <View />;
