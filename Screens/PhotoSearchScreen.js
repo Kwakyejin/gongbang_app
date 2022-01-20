@@ -5,7 +5,6 @@ import {
   Text,
   View,
   TouchableOpacity,
-  Alert,
 } from "react-native";
 import camera from "../assets/bi_camera-fill.svg";
 import photo from "../assets/bi_image.svg";

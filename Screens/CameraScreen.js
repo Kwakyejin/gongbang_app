@@ -17,8 +17,8 @@ export default function CameraScreen() {
 
   const takePicture = async () => {
     if (camera) {
-      const data = await camera.takePictureAsync(null);
-      setImage(data.url);
+      const data = await camera.takePictureAsync(camera.cuurent);
+      setImage(data.uri);
     }
   };
   useEffect(() => {
