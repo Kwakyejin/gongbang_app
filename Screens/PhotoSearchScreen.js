@@ -13,21 +13,32 @@ import {} from "@react-navigation/native";
 import GalleryScreen from "./GalleryScreen";
 import CameraScreen from "./CameraScreen";
 import * as ImagePicker from "expo-image-picker";
-
-const pickImage = async () => {
-  let result = await ImagePicker.launchImageLibraryAsync({
-    mediaTypes: ImagePicker.MediaTypeOptions.Images,
-    allowEditing: true,
-    aspect: [1, 1],
-    quality: 1,
-  });
-
-  if (!result.cancelled) {
-    setImage(result.uri);
-  }
-};
+import flowerCheck from "./flowerCheck";
 
 const PhotoSearchScreen = ({ navigation }) => {
+  const [Image, setImage] = useState(null);
+
+  const pickImage = async () => {
+    let result = await ImagePicker.launchImageLibraryAsync({
+      mediaTypes: ImagePicker.MediaTypeOptions.Images,
+      allowEditing: true,
+      aspect: [1, 1],
+      quality: 1,
+    });
+
+    if (!result.cancelled) {
+      setImage(result);
+    }
+  };
+
+  useEffect(async () => {
+    if (Image != null) {
+      const resultInfo = await flowerCheck(Image, 0.95);
+      console.log(resultInfo);
+      setImage(null);
+    }
+  }, [Image]);
+
   return (
     <SafeAreaView style={styles.style1}>
       <SafeAreaView style={styles.style2}>
