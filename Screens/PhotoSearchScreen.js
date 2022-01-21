@@ -33,7 +33,7 @@ const PhotoSearchScreen = ({ navigation }) => {
 
   useEffect(async () => {
     if (Image != null) {
-      const resultInfo = await flowerCheck(Image, 0.95);
+      const resultInfo = await flowerCheck(Image, 0.55);
       console.log(resultInfo);
       setImage(null);
     }
