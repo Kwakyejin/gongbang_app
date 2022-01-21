@@ -35,13 +35,8 @@ const PhotoSearchScreen = ({ navigation }) => {
   useEffect(async () => {
     if (Image != null) {
       const resultInfo = await flowerCheck(Image, 0.55);
-      console.log(resultInfo);
+      alert(resultInfo);
       setImage(null);
-      return Alert.alert(
-        "검색결과 " + { resultInfo } + "입니다",
-        [{ text: "확인했습니다!", onPress: () => console.log("그렇다는데") }],
-        { cancelable: false }
-      );
     }
   }, [Image]);
 

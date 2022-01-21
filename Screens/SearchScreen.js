@@ -16,6 +16,9 @@ const SearchScreen = () => {
       for (const effect of info.efficacy) {
         if (effect.indexOf(text) != -1 && !data.includes(info)) data.push(info);
       }
+      for (const place of info.place) {
+        if (place.indexOf(text) != -1 && !data.includes(info)) data.push(info);
+      }
     }
     setfilteredData(data);
     console.log(data);
@@ -23,10 +26,13 @@ const SearchScreen = () => {
 
   const ItemView = ({ item }) => {
     return (
-      <Text style={styles.itemstyle}>
-        "이름: "{item.name}" 효능: "{item.efficacy}" 식물을 볼 수있는 달: "{" "}
-        {item.month}
-      </Text>
+      <View>
+        <Text style={styles.itemstyle}>{item.name} </Text>
+        <Text> 효능: {item.efficacy}</Text>
+        <Text> 식물을 볼 수 있는 달: {item.month}월</Text>
+        <Text> 식용이 가능한 부분:{item.can_eat_parts}</Text>
+        <Text> 발견된 지역 in JEJU: {item.place}</Text>
+      </View>
     );
   };
 
@@ -96,6 +102,6 @@ const styles = StyleSheet.create({
   itemstyle: {
     padding: 15,
     display: "flex",
-    flexDirection: "column",
+    fontWeight: "700",
   },
 });
