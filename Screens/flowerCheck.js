@@ -1,5 +1,5 @@
 import axios from "axios";
-import { data } from "../assets/json/data.json";
+import { data } from "../assets/data_F.json";
 
 async function flowerCheck(img, threshold) {
   await axios

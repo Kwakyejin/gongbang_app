@@ -1,54 +1,75 @@
-import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View, TextInput } from "react-native";
-import { FlatList } from "react-native-gesture-handler";
+import React, { useState, useEffect, Component } from "react";
+import { StyleSheet, FlatList, Text, View, TextInput } from "react-native";
 import { SafeAreaView } from "react-navigation";
-import data from "../assets/data.json";
 import search from "../assets/Group.svg";
 import { WithLocalSvg } from "react-native-svg";
 import axios from "axios";
 
 const SearchScreen = () => {
-  const [posts, setPosts] = useState([]);
-  const [err, setErr] = useState("");
-  const [term, setTerm] = useState("");
+  const [filteredData, setfilteredData] = useState([]);
+  const [masterData, setmasterData] = useState([]);
+  const [search, setsearch] = useState("");
 
-  const getPosts = () => {
-    axios.get("https://jsonplaceholder.typicode.com/posts").then((res) => {
-      if (res.data.length > 0) {
-        setPosts(res.data);
-      } else {
-        setPosts([]);
-        setErr("No post found");
-      }
-    });
+  useEffect(() => {
+    fetchPost();
+    return () => {};
+  }, []);
+
+  const fetchPost = () => {
+    const apiURL = "https://jsonplaceholder.typicode.com/posts";
+    fetch(apiURL)
+      .then((response) => response.json())
+      .then((responseJson) => {
+        setfilteredData(responseJson);
+        setmasterData(responseJson);
+      })
+      .catch((err) => {
+        console.error(err);
+      });
   };
 
-  const renderPosts = (item) => {
+  const searchFilter = (text) => {
+    if (text) {
+      const newData = masterData.filter((item) => {
+        const itemData = item.title
+          ? item.title.toUpperCase()
+          : "".toUpperCase();
+        const textData = text.toUpperCase();
+        return itemData.indexOf(textData) > -1;
+      });
+      setfilteredData(newData);
+      setsearch(text);
+    } else {
+      setfilteredData(masterData);
+      setsearch(text);
+    }
+  };
+  const ItemView = ({ item }) => {
     return (
-      <View>
-        <Text>
-          {item.id}.{item.title}
-        </Text>
-        <Text>{item.body}</Text>
-      </View>
+      <Text style={styles.itemstyle}>
+        {item.id}
+        {"."}
+        {item.title.toUpperCase()}
+      </Text>
     );
   };
 
-  useEffect(() => {
-    getPosts(term);
-  }, [term]);
+  const ItemSeparatorView = () => {
+    return (
+      <View
+        style={{ height: 0.5, width: "100%", backgroundColor: "#c8c8c8" }}
+      />
+    );
+  };
 
   return (
     <SafeAreaView>
       <View
         style={{
-          height: "20%",
           width: "100%",
           display: "flex",
-          flexDirection: "row",
-          alignItems: "center",
           justifyContent: "center",
-          paddingTop: 40,
+          alignItems: "center",
         }}
       >
         <View
@@ -66,18 +87,21 @@ const SearchScreen = () => {
           <WithLocalSvg width={16.61} height={16.61} asset={search} />
           <TextInput
             style={styles.textInput}
+            value={search}
             placeholder="검색어를 입력하세요"
             placeholderTextColor="#FFFFFF"
+            onChangeText={(input) => {
+              searchFilter(input);
+            }}
           />
         </View>
       </View>
-      <View>
-        <FlatList
-          data={posts}
-          renderItem={renderPosts}
-          keyExtractor={(post) => post.id}
-        />
-      </View>
+      <FlatList
+        data={filteredData}
+        keyExtractor={(item, index) => index.toString()}
+        ItemSeparatorComponent={ItemSeparatorView}
+        renderItem={ItemView}
+      />
     </SafeAreaView>
   );
 };
@@ -92,5 +116,8 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: "white",
     paddingLeft: 5,
+  },
+  itemstyle: {
+    padding: 15,
   },
 });
