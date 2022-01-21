@@ -1,10 +1,10 @@
 import React, { useState, useEffect, Component } from "react";
-import { StyleSheet, Text, View, TextInput } from "react-native";
-import { FlatList } from "react-native-gesture-handler";
+import { StyleSheet, Text, View, TextInput, FlatList } from "react-native";
 import { SafeAreaView } from "react-navigation";
 import search from "../assets/Group.svg";
 import { WithLocalSvg } from "react-native-svg";
 import axios from "axios";
+
 const loadItem = async () => {
   axios
     .get("https://8889dda3-8dd2-44d3-bbe4-b78f929506aa.mock.pstmn.io/plants")

@@ -4,6 +4,7 @@ import { plant } from "../assets/data_F.json";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 import firebaseInit from "../firebaseInit";
 
+
 async function uploadFiles(file) {
   if (!file) return;
   const sotrageRef = ref(firebaseInit.storage, "checkingFile/check.png");

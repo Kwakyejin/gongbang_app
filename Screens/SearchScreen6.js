@@ -72,7 +72,6 @@ export class SearchScreen6 extends Component {
   render() {
     return (
       <SafeAreaView>
-        <StatusBar style="light-content" />
         <FlatList
           data={this.state.data}
           renderItem={({ item }) => (
