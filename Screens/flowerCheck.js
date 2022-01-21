@@ -1,8 +1,10 @@
 import axios from "axios";
 
-import { data } from "../assets/data_F.json";
+
+import { plant } from "../assets/data_F.json";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 import firebaseInit from "../firebaseInit";
+
 
 async function uploadFiles(file) {
   if (!file) return;
@@ -29,11 +31,14 @@ async function flowerCheck(img, threshold) {
             threshold.toString()
         )
         .then((res) => {
-          console.log(res.data.flower_name);
+
+          console.log("name", res.data.flower_name);
           if (res.data.flower_name == "unknown") return null;
           const flowerName = res.data.flower_name;
-          for (const info in data) {
+          for (const info of plant) {
             if (info.name == flowerName) {
+              console.log(info);
+
               return info;
             }
           }
