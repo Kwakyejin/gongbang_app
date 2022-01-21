@@ -1,5 +1,12 @@
 import React, { useState, useEffect, Component } from "react";
-import { StyleSheet, FlatList, Text, View, TextInput } from "react-native";
+import {
+  StyleSheet,
+  FlatList,
+  Text,
+  View,
+  TextInput,
+  Image,
+} from "react-native";
 import { SafeAreaView } from "react-navigation";
 import search2 from "../assets/Group.svg";
 import { WithLocalSvg } from "react-native-svg";
@@ -19,6 +26,19 @@ const SearchScreen = () => {
       for (const place of info.place) {
         if (place.indexOf(text) != -1 && !data.includes(info)) data.push(info);
       }
+      for (const eat of info.can_eat_parts) {
+        if (eat.indexOf(text) != -1 && !data.includes(info)) data.push(info);
+      }
+      for (const sname of info.study_name) {
+        if (
+          sname.toLowerCase().indexOf(text.toLowerCase()) != -1 &&
+          !data.includes(info)
+        )
+          data.push(info);
+      }
+      for (const shape of info.shape) {
+        if (shape.indexOf(text) != -1 && !data.includes(info)) data.push(info);
+      }
     }
     setfilteredData(data);
     console.log(data);
@@ -28,10 +48,21 @@ const SearchScreen = () => {
     return (
       <View>
         <Text style={styles.itemstyle}>{item.name} </Text>
-        <Text> 효능: {item.efficacy}</Text>
-        <Text> 식물을 볼 수 있는 달: {item.month}월</Text>
-        <Text> 식용이 가능한 부분:{item.can_eat_parts}</Text>
-        <Text> 발견된 지역 in JEJU: {item.place}</Text>
+        <Text style={styles.itemstyle2}> 효능: {item.efficacy}</Text>
+        <Text style={styles.itemstyle2}>
+          {" "}
+          식물을 볼 수 있는 달: {item.month}
+        </Text>
+        <Text style={styles.itemstyle2}>
+          {" "}
+          식용이 가능한 부분: {item.can_eat_parts}
+        </Text>
+        <Text style={styles.itemstyle2}>
+          {" "}
+          발견된 지역 in JEJU: {item.place}
+        </Text>
+        <Text style={styles.itemstyle2}> 학명: {item.study_name}</Text>
+        <Text style={styles.itemstyle2}> 초(목)본: {item.shape}</Text>
       </View>
     );
   };
@@ -48,6 +79,7 @@ const SearchScreen = () => {
     <SafeAreaView style={{ flex: 1 }}>
       <View
         style={{
+          height: "8%",
           width: "100%",
           display: "flex",
           justifyContent: "center",
@@ -103,5 +135,11 @@ const styles = StyleSheet.create({
     padding: 15,
     display: "flex",
     fontWeight: "700",
+  },
+  itemstyle2: {
+    paddingBottom: 4,
+    paddingLeft: 3,
+    display: "flex",
+    fontWeight: "400",
   },
 });

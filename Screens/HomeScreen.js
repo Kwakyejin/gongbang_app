@@ -171,6 +171,8 @@ const styles = StyleSheet.create({
     display: "flex",
     alignItems: "center",
     backgroundColor: "white",
+    marginBottom: 10,
+    marginTop: 10,
   },
   style2: {
     display: "flex",

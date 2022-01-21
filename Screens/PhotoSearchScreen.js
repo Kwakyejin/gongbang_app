@@ -11,8 +11,6 @@ import camera from "../assets/bi_camera-fill.svg";
 import photo from "../assets/bi_image.svg";
 import { WithLocalSvg } from "react-native-svg";
 import {} from "@react-navigation/native";
-import GalleryScreen from "./GalleryScreen";
-import CameraScreen from "./CameraScreen";
 import * as ImagePicker from "expo-image-picker";
 import flowerCheck from "./flowerCheck";
 
@@ -35,8 +33,12 @@ const PhotoSearchScreen = ({ navigation }) => {
   useEffect(async () => {
     if (Image != null) {
       const resultInfo = await flowerCheck(Image, 0.55);
-      alert(resultInfo);
       setImage(null);
+      if (resultInfo != null) {
+        alert("검색결과 " + resultInfo + "입니다");
+      } else {
+        alert("검색결과 해당하는 식물이 없습니다");
+      }
     }
   }, [Image]);
 

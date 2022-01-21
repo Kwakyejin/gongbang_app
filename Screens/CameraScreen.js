@@ -18,8 +18,8 @@ export default function CameraScreen() {
 
   const takePicture = async () => {
     if (camera) {
-      const data = await camera.takePictureAsync(camera.current);
-      setImage(data.uri);
+      let data = await camera.takePictureAsync(camera.current);
+      setImage(data);
     }
   };
   useEffect(() => {
@@ -31,9 +31,13 @@ export default function CameraScreen() {
 
   useEffect(async () => {
     if (Image != null) {
-      const resultInfo = await flowerCheck(Image, 0.95);
-      console.log(resultInfo);
+      const resultInfo = await flowerCheck(Image, 0.55);
       setImage(null);
+      if (resultInfo != null) {
+        alert("검색결과 " + resultInfo + "입니다");
+      } else {
+        alert("검색결과 해당하는 식물이 없습니다");
+      }
     }
   }, [Image]);
 
