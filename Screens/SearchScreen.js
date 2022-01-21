@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Component } from "react";
 import { StyleSheet, FlatList, Text, View, TextInput } from "react-native";
 import { SafeAreaView } from "react-navigation";
-import search from "../assets/Group.svg";
+import search2 from "../assets/Group.svg";
 import { WithLocalSvg } from "react-native-svg";
 import axios from "axios";
 
@@ -16,9 +16,11 @@ const SearchScreen = () => {
   }, []);
 
   const fetchPost = () => {
-    const apiURL = "https://jsonplaceholder.typicode.com/posts";
+    const apiURL =
+      "https://863ac635-d043-45a5-b0e8-ef7f8c86f888.mock.pstmn.io/plants";
     fetch(apiURL)
       .then((response) => response.json())
+      .then((data) => console.log(data))
       .then((responseJson) => {
         setfilteredData(responseJson);
         setmasterData(responseJson);
@@ -31,9 +33,7 @@ const SearchScreen = () => {
   const searchFilter = (text) => {
     if (text) {
       const newData = masterData.filter((item) => {
-        const itemData = item.title
-          ? item.title.toUpperCase()
-          : "".toUpperCase();
+        const itemData = item.name ? item.name.toUpperCase() : "".toUpperCase();
         const textData = text.toUpperCase();
         return itemData.indexOf(textData) > -1;
       });
@@ -49,7 +49,7 @@ const SearchScreen = () => {
       <Text style={styles.itemstyle}>
         {item.id}
         {"."}
-        {item.title.toUpperCase()}
+        {item.name.toUpperCase()}
       </Text>
     );
   };
@@ -63,7 +63,7 @@ const SearchScreen = () => {
   };
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1 }}>
       <View
         style={{
           width: "100%",
@@ -84,7 +84,7 @@ const SearchScreen = () => {
             paddingLeft: 10,
           }}
         >
-          <WithLocalSvg width={16.61} height={16.61} asset={search} />
+          <WithLocalSvg width={16.61} height={16.61} asset={search2} />
           <TextInput
             style={styles.textInput}
             value={search}
@@ -111,7 +111,7 @@ export default SearchScreen;
 const styles = StyleSheet.create({
   textInput: {
     height: 39,
-    width: 324,
+    width: 304,
     fontWeight: "400",
     fontSize: 18,
     color: "white",
