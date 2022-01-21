@@ -1,5 +1,6 @@
 import axios from "axios";
-import { data } from "../assets/data.json";
+
+import { data } from "../assets/data_F.json";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 import firebaseInit from "../firebaseInit";
 

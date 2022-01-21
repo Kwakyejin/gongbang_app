@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Image, TouableOpacity } from "react-native";
 import HomeScreen from "../Screens/HomeScreen";
 import MypageScreen from "../Screens/MypageScreen";
 import PhotoScreen from "../Screens/PhotoSearchScreen";
-import SearchScreen from "../Screens/SearchScreen";
+import SearchScreen from "../Screens/SearchScreen6";
 import ShopScreen from "../Screens/ShopScreen";
 import TestScreen from "../Screens/TestScreen";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
