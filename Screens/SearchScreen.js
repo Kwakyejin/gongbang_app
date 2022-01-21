@@ -3,7 +3,6 @@ import { StyleSheet, FlatList, Text, View, TextInput } from "react-native";
 import { SafeAreaView } from "react-navigation";
 import search2 from "../assets/Group.svg";
 import { WithLocalSvg } from "react-native-svg";
-import axios from "axios";
 import { plant } from "../assets/data_F.json";
 
 const SearchScreen = () => {
@@ -25,9 +24,8 @@ const SearchScreen = () => {
   const ItemView = ({ item }) => {
     return (
       <Text style={styles.itemstyle}>
-        {item.id}
-        {"."}
-        {item.name.toUpperCase()}
+        "이름: "{item.name}" 효능: "{item.efficacy}" 식물을 볼 수있는 달: "{" "}
+        {item.month}
       </Text>
     );
   };
@@ -97,5 +95,7 @@ const styles = StyleSheet.create({
   },
   itemstyle: {
     padding: 15,
+    display: "flex",
+    flexDirection: "column",
   },
 });
