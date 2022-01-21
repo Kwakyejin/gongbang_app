@@ -4,46 +4,24 @@ import { SafeAreaView } from "react-navigation";
 import search2 from "../assets/Group.svg";
 import { WithLocalSvg } from "react-native-svg";
 import axios from "axios";
+import { plant } from "../assets/data_F.json";
 
 const SearchScreen = () => {
+  const [text, setText] = useState("");
   const [filteredData, setfilteredData] = useState([]);
-  const [masterData, setmasterData] = useState([]);
-  const [search, setsearch] = useState("");
 
   useEffect(() => {
-    fetchPost();
-    return () => {};
-  }, []);
-
-  const fetchPost = () => {
-    const apiURL =
-      "https://863ac635-d043-45a5-b0e8-ef7f8c86f888.mock.pstmn.io/plants";
-    fetch(apiURL)
-      .then((response) => response.json())
-      .then((data) => console.log(data))
-      .then((responseJson) => {
-        setfilteredData(responseJson);
-        setmasterData(responseJson);
-      })
-      .catch((err) => {
-        console.error(err);
-      });
-  };
-
-  const searchFilter = (text) => {
-    if (text) {
-      const newData = masterData.filter((item) => {
-        const itemData = item.name ? item.name.toUpperCase() : "".toUpperCase();
-        const textData = text.toUpperCase();
-        return itemData.indexOf(textData) > -1;
-      });
-      setfilteredData(newData);
-      setsearch(text);
-    } else {
-      setfilteredData(masterData);
-      setsearch(text);
+    const data = [];
+    for (const info of plant) {
+      if (info.name.indexOf(text) != -1 || info.month == text) data.push(info);
+      for (const effect of info.efficacy) {
+        if (effect.indexOf(text) != -1 && !data.includes(info)) data.push(info);
+      }
     }
-  };
+    setfilteredData(data);
+    console.log(data);
+  }, [text]);
+
   const ItemView = ({ item }) => {
     return (
       <Text style={styles.itemstyle}>
@@ -87,11 +65,11 @@ const SearchScreen = () => {
           <WithLocalSvg width={16.61} height={16.61} asset={search2} />
           <TextInput
             style={styles.textInput}
-            value={search}
+            value={text}
             placeholder="검색어를 입력하세요"
             placeholderTextColor="#FFFFFF"
             onChangeText={(input) => {
-              searchFilter(input);
+              setText(input);
             }}
           />
         </View>
