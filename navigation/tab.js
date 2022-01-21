@@ -9,8 +9,6 @@ import ShopScreen from "../Screens/ShopScreen";
 import TestScreen from "../Screens/TestScreen";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import MainScreen from "../Screens/HomeScreen";
-import Camera from "../Screens/CameraScreen";
-import gallery from "../Screens/GalleryScreen";
 import CameraScreen from "../Screens/CameraScreen";
 
 const Tab = createBottomTabNavigator();
