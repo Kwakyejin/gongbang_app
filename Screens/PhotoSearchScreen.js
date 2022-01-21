@@ -37,11 +37,11 @@ const PhotoSearchScreen = ({ navigation }) => {
       const resultInfo = await flowerCheck(Image, 0.55);
       console.log(resultInfo);
       setImage(null);
-      return Alert.alert(
-        "검색결과 " + { resultInfo } + "입니다",
-        [{ text: "확인했습니다!", onPress: () => console.log("그렇다는데") }],
-        { cancelable: false }
-      );
+      if (resultInfo != null) {
+        alert("검색결과 " + resultInfo + "입니다");
+      } else {
+        alert("검색결과 해당하는 식물이 없습니다");
+      }
     }
   }, [Image]);
 
