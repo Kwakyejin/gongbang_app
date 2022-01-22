@@ -18,7 +18,7 @@ const PhotoSearchScreen = ({ navigation }) => {
   const [Image, setImage] = useState(null);
 
   const pickImage = async () => {
-    let result = await ImagePicker.launchImageLibraryAsync({
+    const result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ImagePicker.MediaTypeOptions.Images,
       allowEditing: true,
       aspect: [1, 1],

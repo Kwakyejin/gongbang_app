@@ -31,7 +31,7 @@ export default function CameraScreen() {
 
   useEffect(async () => {
     if (Image != null) {
-      const resultInfo = await flowerCheck(Image, 0.55);
+      const resultInfo = await flowerCheck(Image, 0.75);
       setImage(null);
       if (resultInfo != null) {
         alert("검색결과 " + resultInfo + "입니다");
