@@ -67,3 +67,7 @@
 ## 6. 서비스 시나리오
 ![image](https://user-images.githubusercontent.com/81740134/150682983-73bb7b17-ae6a-485d-898c-374b6012ceda.png)
 ![image](https://user-images.githubusercontent.com/81740134/150683069-2f785635-d950-42ed-abfe-5bc1e5685278.png)
+
+
+## 7. 사용 기술
+![image](https://user-images.githubusercontent.com/81740134/150683154-e1195ff5-1d15-4e30-9292-54db408fe51c.png)
