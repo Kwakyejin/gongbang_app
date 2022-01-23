@@ -9,7 +9,7 @@
 
 - 실제 어플리케이션 구동 영상(4배속)
 
-#### :star: Team KPH
+#### 💜 Team KPH
 - 팀원: [곽예진](https://github.com/Kwakyejin), [박성아](https://github.com/seonga76), [황도현](https://github.com/HwangDoHyun28)
 --------------
 ## 목차
