@@ -87,7 +87,7 @@
 
 ![image](https://user-images.githubusercontent.com/81740134/150683234-adbffa05-701a-4118-a864-f6534ff306ec.png)<br>
 
-- **EfficientV2**는 타 모델과 비교해서 학습속도가 빠르고 적은 수의 패러미터로 성능이 유사함
+- **EfficientV2**는 타 모델과 비교해서 학습속도가 빠르고 적은 수의 패러미터로 타 모델과 유사한 성능을 낼 수 있음
 
 
 ## 8. Business Model
