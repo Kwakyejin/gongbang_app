@@ -10,7 +10,7 @@
 - 실제 어플리케이션 구동 영상(4배속)
 
 #### 💜 Team KPH
-- 팀원: [박성아](https://github.com/seonga76)(팀장, 앱 디자이너, 기획자2), [곽예진](https://github.com/Kwakyejin)(앱 개발자), [황도현](https://github.com/HwangDoHyun28)(머신러닝 개발자, 기획자1, 제품 디자이너) <br>+ 도움 주신 분(백엔드 서버 구축): [김도균](https://github.com/jasper200207)
+- 팀원: [박성아](https://github.com/seonga76)(팀장, 앱 디자이너, 기획자2), [곽예진](https://github.com/Kwakyejin)(앱 개발자), [황도현](https://github.com/HwangDoHyun28)(머신러닝 개발자, 기획자1, 제품 디자이너) <br>+ 도움 주신 분: [김도균](https://github.com/jasper200207)(백엔드 서버 구축)
 --------------
 ## 목차
 1. [Problem](#1-Problem)
