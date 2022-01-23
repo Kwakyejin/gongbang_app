@@ -8,3 +8,7 @@
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/81740134/150679385-a0a86a08-e9c2-4a5e-a2f3-2715a65b770a.gif)
 
 - 실제 어플리케이션 구동 영상(4배속)
+
+#### :star: Team KPH
+- 팀원: [곽예진](https://github.com/Kwakyejin), [박성아](https://github.com/seonga76), [황도현](https://github.com/HwangDoHyun28)
+--------------
