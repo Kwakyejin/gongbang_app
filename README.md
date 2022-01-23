@@ -22,8 +22,8 @@
 7. [사용 기술](#7-사용-기술)
 8. [Business Model](#8-Business-Model)
 9. [성장](#9-성장)
-10. [Financial forecast](#Financial-forecast)
-
+10. [Financial forecast](#10-Financial-forecast)
+11. [대회 피드백](#11-대회-피드백)
 
 -------------------------
 
@@ -84,3 +84,6 @@
 
 ## 10. Financial forecast
 ![image](https://user-images.githubusercontent.com/81740134/150683564-51f6f013-b238-4778-9859-73e3024487e1.png)
+
+
+## 11. 대회 피드백
