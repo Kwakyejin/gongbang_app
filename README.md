@@ -62,3 +62,8 @@
 
 ![image](https://user-images.githubusercontent.com/81740134/150682841-179f2eab-ed5b-47b4-a721-1093501aadfd.png)
 - **풋내음 공방의 서비스**
+
+
+## 6. 서비스 시나리오
+![image](https://user-images.githubusercontent.com/81740134/150682983-73bb7b17-ae6a-485d-898c-374b6012ceda.png)
+![image](https://user-images.githubusercontent.com/81740134/150683069-2f785635-d950-42ed-abfe-5bc1e5685278.png)
