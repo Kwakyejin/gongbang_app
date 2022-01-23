@@ -80,3 +80,7 @@
 
 ## 9. 성장
 ![image](https://user-images.githubusercontent.com/81740134/150683509-25c8255b-1c2b-479a-9c38-e267629a69ad.png)
+
+
+## 10. Financial forecast
+![image](https://user-images.githubusercontent.com/81740134/150683564-51f6f013-b238-4778-9859-73e3024487e1.png)
