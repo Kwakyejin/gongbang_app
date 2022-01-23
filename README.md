@@ -40,6 +40,7 @@
 - 자생 식물을 이용한 기념품 판매
 ![image](https://user-images.githubusercontent.com/81740134/150684059-d0e6d5f0-e368-41e2-a7c8-e9df30a8e7c9.png)
 - 자생 식물 향수 디자인 시안
+![image](https://user-images.githubusercontent.com/81740134/150684313-79da15db-5203-4551-8dfb-748a3ec1985c.png)
 - 자생 식물 검색 & 자생 식물 향수판매 및 구매 플랫폼 구현
 - 이미지 검색(상품을 원활하게 판매하는 방안)
 
