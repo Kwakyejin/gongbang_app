@@ -102,5 +102,11 @@
 
 
 ## 11. 대회 피드백
+![image](https://user-images.githubusercontent.com/81740134/150688049-c58ba372-b502-479d-a552-4244da12c326.png)
+![image](https://user-images.githubusercontent.com/81740134/150688062-0acd163e-638c-4da3-b954-8603d03de39a.png)
+![image](https://user-images.githubusercontent.com/81740134/150688074-1e9545ff-e64e-4268-b3ae-dc3bb6318c5a.png)
+![image](https://user-images.githubusercontent.com/81740134/150688082-ca411ce4-8300-4a15-84e5-6a423fef2519.png)
+- 대회의 전반적 형태
 ![image](https://user-images.githubusercontent.com/81740134/150687813-000a8222-f1ee-4926-95ed-ad14b910eba0.png)
-- 결론적으로 수상을 했음.
+- 결론적으로 수상(우수상-3등상)을 했음.
+- 해당 대회는 예선에서 45팀 중 15팀을 거르고, 거기에서 우수상 2팀, 최우수상 2팀, 대상 1팀에게 상장과 상금을 부여하는 구조였음.
