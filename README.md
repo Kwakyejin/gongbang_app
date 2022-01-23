@@ -52,3 +52,6 @@
 -'**건강**'에 대한 관심도 증가.<br>
 -'**자연친화적인 것**'에 대한 관심도 증가<br>
 
+
+## 4. 시장 규모
+![image](https://user-images.githubusercontent.com/81740134/150682620-a0e547f9-b062-4f24-a01e-fc3edd919fa5.png)
