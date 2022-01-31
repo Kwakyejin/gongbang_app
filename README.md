@@ -9,7 +9,7 @@
 - 프로토 타입 어플리케이션 구동 영상(4배속)
 
 #### 💜 Team KPH
-- [박성아](https://github.com/seonga76)(**팀장**, 앱 디자이너, 기획자2(서비스 및 제품 기획, 발표),json 데이터 ) 
+- [박성아](https://github.com/seonga76)(**팀장**, 앱 디자이너, 기획자2(서비스 및 제품 기획, 발표), json 데이터 ) 
 - [곽예진](https://github.com/Kwakyejin)(**팀원1**, 앱(프론트엔드) 개발자, json 데이터 가공)
 - [황도현](https://github.com/HwangDoHyun28)(**팀원2**, AI(머신 러닝) 개발자, 기획자1(전체 아이디어 기획), 제품 디자이너, 이미지 데이터 가공)<br>
 
